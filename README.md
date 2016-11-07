@@ -1,3 +1,3 @@
-## Jekyll Documentation theme
+## Sitio de documentación de SemanticWebBuilder Process.
 
-Build the site to see the instructions for using it. Or just go here: [http://idratherbewriting.com/documentation-theme-jekyll/](http://idratherbewriting.com/documentation-theme-jekyll/)
+Este repositorio contiene el sitio de documentación técnica y de usuario de SWBProcess. Es un sitio jekyll con plantilla basada en [Jekyll Documentation Theme](http://idratherbewriting.com/documentation-theme-jekyll/) de [Tom Johnson](https://github.com/tomjohnson1492).
