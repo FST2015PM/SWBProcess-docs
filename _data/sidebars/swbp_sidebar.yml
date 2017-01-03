@@ -104,30 +104,30 @@ entries:
       url: /swbp_usermanagement.html
       output: web, pdf
 
-  - title: Gestión de procesos de negocio
-    output: web, pdf
+  #- title: Gestión de procesos de negocio
+#    output: web, pdf
 
-    folderitems:
-    - title: Gestión de procesos de negocio
-      url: /mydoc_pages.html
-      output: web, pdf
+    #folderitems:
+    #- title: Gestión de procesos de negocio
+  #    url: /mydoc_process_management.html
+#      output: web, pdf
 
-    - title: Documentación de procesos de negocio
-      url: /mydoc_pages.html
-      output: web, pdf
+#    - title: Documentación de procesos de negocio
+#      url: /mydoc_pages.html
+#      output: web, pdf
 
-    - title: Despliegue de procesos de negocio
-      url: /mydoc_pages.html
-      output: web, pdf
+#    - title: Despliegue de procesos de negocio
+#      url: /mydoc_pages.html
+#      output: web, pdf
 
-  - title: Información para desarrolladores
-    output: web, pdf
+#  - title: Información para desarrolladores
+#    output: web, pdf
 
-    folderitems:
-    - title: Código fuente
-      url: /mydoc_adding_tooltips.html
-      output: web, pdf
+#    folderitems:
+#    - title: Código fuente
+#      url: /mydoc_adding_tooltips.html
+#      output: web, pdf
 
-    - title: API de SWBProcess
-      url: /mydoc_adding_tooltips.html
-      output: web, pdf
+#    - title: API de SWBProcess
+#      url: /mydoc_adding_tooltips.html
+#      output: web, pdf
