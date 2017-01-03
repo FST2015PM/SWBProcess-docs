@@ -84,12 +84,8 @@ entries:
       url: /swbp_prerequisites.html
       output: web, pdf
 
-    - title: Despliegue en Linux/Mac OS
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
-
-    - title: Despliegue en Windows
-      url: /mydoc_install_jekyll_on_windows.html
+    - title: Instalación
+      url: /swbp_install.html
       output: web, pdf
 
     - title: Configuración inicial
