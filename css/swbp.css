@@ -1,0 +1,13 @@
+body {
+  color: #3c3c3a;
+  background-color: #e8e8e7;
+}
+
+.navbar-inverse {
+  background-color: #1c2b36;
+  border-color: #1c2b36;
+}
+
+.nav ul li {
+  background-color: #1c2b36;
+}

@@ -1,8 +1,8 @@
 ---
-title: "Collaboration pages"
-tagName: collaboration
+title: "Setup pages"
+tagName: setup
 search: exclude
-permalink: tag_collaboration.html
+permalink: tag_setup.html
 sidebar: swbp_sidebar
 folder: tags
 ---

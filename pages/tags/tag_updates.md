@@ -1,8 +1,8 @@
 ---
-title: "Collaboration pages"
-tagName: collaboration
+title: "Updates pages"
+tagName: updates
 search: exclude
-permalink: tag_collaboration.html
+permalink: tag_updates.html
 sidebar: swbp_sidebar
 folder: tags
 ---
