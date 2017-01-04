@@ -109,7 +109,7 @@ entries:
       output: web, pdf
 
     - title: Gestión de usuarios y permisos
-      url: /swbp_processsite_management.html
+      url: /swbp_users.html
       output: web, pdf
 
   - title: Administración de procesos de negocio
@@ -121,6 +121,10 @@ entries:
         output: web, pdf
 
       - title: Reglas de negocio
+        url: /swbp_remove_process_site.html
+        output: web, pdf
+
+      - title: Procesos de negocio
         url: /swbp_remove_process_site.html
         output: web, pdf
 
