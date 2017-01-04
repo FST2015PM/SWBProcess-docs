@@ -3,6 +3,10 @@ body {
   background-color: #f5f5f5;
 }
 
+p {
+  text-align: justify;
+}
+
 .navbar-inverse {
   background-color: #131e25;
   border-color: #131e25;
@@ -112,4 +116,20 @@ h3,h4 {
 
 .go-top, .go-top:focus, .go-top:hover {
     text-decoration: none;
+}
+
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+table thead {
+  vertical-align: middle;
+}
+
+table > thead > tr > th {
+  color: #09af9b;
+  background-color: #fff;
+  font-weight: normal;
 }

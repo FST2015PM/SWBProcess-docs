@@ -1,25 +1,42 @@
 ---
-title: Soporte técnico
-tags: [getting_started, troubleshooting, support]
-summary: "Soporte técnico al producto"
+title: Organización de la aplicación
+tags: [getting_started]
+summary: "Organización de SemanticWebBuilder Process"
 sidebar: swbp_sidebar
 permalink: swbp_app_components.html
 folder: swbp
 ---
 
-## Soporte técnico gratuito
-Usted puede obtener soporte técnico gratuito de la comunidad de SemanticWebBuilder haciendo contacto con nosotros a través del siguiente [formulario](http://www.semanticwebbuilder.org.mx/es_mx/swb/Contacto) o a través de los [foros](http://www.semanticwebbuilder.org.mx/swb/swb/Foro).
+## Arquitectura del producto
+SWBProcess fue concebido para establecer una clara separación entre los roles involucrados en el ciclo de vida de los procesos. Lo anterior con la finalidad de permitir que cada actor enfoque sus capacidades en alguna etapa del desarrollo y automatización de los procesos.
 
-## Servicios asociados al producto
-INFOTEC ofrece con costo adicional los siguientes servicios asociados al producto. Puede obtener mayor infirmación en la [página de contacto](https://www.infotec.mx/es_mx/infotec/Contacto) de [INFOTEC](https://www.infotec.mx)
+Por este motivo, existen dos puntos de acceso a herramientas específicas que proveen acciones concretas para grupos de perfiles. Estos puntos de acceso son el **sitio de administación de SWBProcess** y el **sitio Web de procesos**.
 
-### Servicios de operación
-Soporte técnico pagado con niveles de servicio establecidos, instalación y actualización (versiones anteriores), implementación y operación, administración de instancias SWB Process, mentoring y capacitación (talleres, cursos y seminarios).
+## Sitio Web de administarción
+Es un punto de acceso con herramientas administrativas que permite, entre otras acciones, la gestión de sitios de procesos, usuarios y permisos, monitoreo general de la aplicación y generación de reportes de rendimiento. Podrá acceder a este sitio mediante el prefijo **/swbadmin** en la URL de la aplicación (por ejemplo: http://localhost:8080/swbadmin).
 
-### Servicios de desarrollo
-Implementación de componentes para SWB Process, mantenimiento de bases de código, desarrollos a la medida y creación de soluciones llave en mano utilizando la plataforma.
+> El sitio Web de administración cuenta con un repositorio de usuarios distinto al de los sitios web de procesos. Esto implica que no podrá iniciar sesión con un usuario de administración en el sitio de procesos y viceversa
 
-### Servicios de consultoría
-Análisis y diagnóstico de la estructura orgánica, la arquitectura de procesos y el portafolio de TI, diseño de soluciones de negocio en un marco de Arquitectura Empresarial, modernización y automatización de procesos y trámites gubernamentales, documentación del estado actual y diseño del modelo deseado, portafolio de proyectos y ruta de implementación.
+### Perfiles asociados
+Los perfiles asociados con el uso de las herramientas del sitio de administración son los siguientes:
+
+|Perfil|Acciones relacionadas|
+|----|-------|
+|Administrador de SWBProcess|Es el nivel más alto de gestión, con facultades para la gestión completa de la instancia de SWBProcess|
+|Administrador de procesos|Control total de los sitios de procesos, incluyendo la creación de procesos y su organización en grupos, gestión de usuarios y permisos|
+|Dueño de procesos|Creación de procesos y su organización en grupos, gestión de usuarios y permisos, configuración de procesos para su ejecución|
+
+## Sitio Web de procesos
+Un sitio Web de procesos es un punto de acceso con herramientas que permiten realizar la operación de los procesos de negocio definidos mediante la documentación de los mismos, la generación de casos y reportes, así como la colaboración en el contexto de su ejecución. Debido a que puede existir más de un sitio de procesos en una instancia de SWBProcess, podrá acceder a este sitio mediante el prefijo **/swb/XXX** en la URL de la aplicación, donde XXX es el identificador del sitio de procesos (por ejemplo: http://localhost:8080/swb/demo).
+
+### Perfiles asociados
+Los perfiles asociados con el uso de las herramientas del sitio de procesos son los siguientes:
+
+|Perfil|Acciones relacionadas|
+|----|-------|
+|Operador de procesos|Ejecución de las actividades establecidas en los procesos y generación nuevos casos de los procesos a los que tienen acceso|
+|Documentador de procesos|Definir las plantillas de documentación para procesos, capturar la documentación asociada|
+|Usuario registrado|Visualización de la documentación de los procesos y de la interacción en las herramientas de colaboración|
+
 
 {% include links.html %}

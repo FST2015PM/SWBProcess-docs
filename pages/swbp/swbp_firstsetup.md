@@ -12,7 +12,7 @@ En un navegador dirijase a la URL [http://localhost:8080/swbadmin](http://localh
 
 ![Admin user name](images/screenshots/swbp_adminuser.png)
 
-Se mostrará la pantalla de edición del usuario en la pestaña de _Información_, como se muestra en la siguiente figura. Ubique el campo _contraseña_ y modifíquelo.
+Se mostrará la pantalla de edición del usuario en la pestaña de _Información_, como se muestra en la siguiente figura. Ubique el campo _contraseña_ y modifíquelo. Puede cambiar también los demás datos del usuario.
 
 ![Admin user name](images/screenshots/swbp_adminuseredit.png)
 

@@ -22,4 +22,7 @@ Implementación de componentes para SWB Process, mantenimiento de bases de códi
 ### Servicios de consultoría
 Análisis y diagnóstico de la estructura orgánica, la arquitectura de procesos y el portafolio de TI, diseño de soluciones de negocio en un marco de Arquitectura Empresarial, modernización y automatización de procesos y trámites gubernamentales, documentación del estado actual y diseño del modelo deseado, portafolio de proyectos y ruta de implementación.
 
+## Reporte de errores e incidencias
+Usted podrá reportar errores e incidencias sobre el uso de SemanticWebBuilder Process en la [página del proyecto](https://kenai.com/jira/browse/SEMANTICWEBPROCESS/) en JIRA. Los reportes son atendidos de acuerdo a la carga de trabajo del equipo de desarrollo, por lo que no existen tiempos de respuesta establecidos a menos que cuente con una póliza de soporte contratada.
+
 {% include links.html %}

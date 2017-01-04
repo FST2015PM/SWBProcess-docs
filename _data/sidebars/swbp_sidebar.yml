@@ -100,34 +100,62 @@ entries:
       url: /swbp_app_components.html
       output: web, pdf
 
-    - title: Usuarios y permisos
-      url: /swbp_usermanagement.html
+    - title: Gestión de sitios de procesos
+      url: /swbp_processsite_management.html
       output: web, pdf
 
-  #- title: Gestión de procesos de negocio
-#    output: web, pdf
+    - title: Gestión de usuarios y permisos
+      url: /swbp_processsite_management.html
+      output: web, pdf
 
-    #folderitems:
-    #- title: Gestión de procesos de negocio
-  #    url: /mydoc_process_management.html
-#      output: web, pdf
+  - title: Administración de procesos de negocio
+    output: web, pdf
+    folderitems:
 
-#    - title: Documentación de procesos de negocio
-#      url: /mydoc_pages.html
-#      output: web, pdf
+      - title: Herramientas de procesos
+        url: /swbp_create_process_site.html
+        output: web, pdf
 
-#    - title: Despliegue de procesos de negocio
-#      url: /mydoc_pages.html
-#      output: web, pdf
+      - title: Reglas de negocio
+        url: /swbp_remove_process_site.html
+        output: web, pdf
 
-#  - title: Información para desarrolladores
-#    output: web, pdf
+      - title: Modelado de procesos
+        url: /swbp_remove_process_site.html
+        output: web, pdf
 
-#    folderitems:
-#    - title: Código fuente
-#      url: /mydoc_adding_tooltips.html
-#      output: web, pdf
+      - title: Configuración de las propiedades de ejecución
+        url: /swbp_remove_process_site.html
+        output: web, pdf
 
-#    - title: API de SWBProcess
-#      url: /mydoc_adding_tooltips.html
-#      output: web, pdf
+  - title: Operación de procesos de negocio
+    output: web, pdf
+    folderitems:
+
+      - title: Bandeja de tareas
+        url: /swbp_create_process_site.html
+        output: web, pdf
+
+      - title: Repositorio de documentos
+        url: /swbp_create_process_site.html
+        output: web, pdf
+
+      - title: Seguimiento a procesos
+        url: /swbp_create_process_site.html
+        output: web, pdf
+
+      - title: Generación de reportes
+        url: /swbp_create_process_site.html
+        output: web, pdf
+
+      - title: Herramientas de colaboración
+        url: /swbp_create_process_site.html
+        output: web, pdf
+
+  - title: Recursos adicionales
+    output: web, pdf
+    folderitems:
+
+      - title: Información para desarrolladores
+        url: /swbp_create_process_site.html
+        output: web, pdf
