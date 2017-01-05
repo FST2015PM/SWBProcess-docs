@@ -154,3 +154,14 @@ table > thead > tr > th {
   color:#7cb342;
   content: "\f05a";
 }
+
+.bs-callout.bs-callout-warning::before {
+  font-family: FontAwesome;
+  font-size: 1.2em;
+  color:#f0ad4e;
+  content: "\f071";
+}
+
+img.menuoption {
+  max-width: 70%;
+}
