@@ -15,7 +15,9 @@ Por este motivo, existen dos puntos de acceso a herramientas específicas que pr
 ## Sitio Web de administarción
 Es un punto de acceso con herramientas administrativas que permite, entre otras acciones, la gestión de sitios de procesos, usuarios y permisos, monitoreo general de la aplicación y generación de reportes de rendimiento. Podrá acceder a este sitio mediante el prefijo **/swbadmin** en la URL de la aplicación (por ejemplo: http://localhost:8080/swbadmin).
 
-> El sitio Web de administración cuenta con un repositorio de usuarios distinto al de los sitios web de procesos. Esto implica que no podrá iniciar sesión con un usuario de administración en el sitio de procesos y viceversa
+{{site.data.alerts.callout_success}}
+El sitio Web de administración cuenta con un repositorio de usuarios distinto al de los sitios web de procesos. Esto implica que no podrá iniciar sesión con un usuario de administración en el sitio de procesos y viceversa
+{{site.data.alerts.end}}
 
 ### Perfiles asociados
 Los perfiles asociados con el uso de las herramientas del sitio de administración son los siguientes:

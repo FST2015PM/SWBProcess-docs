@@ -137,3 +137,20 @@ table > thead > tr > th {
 #disqus_thread {
     margin-top: 30px;
 }
+
+.bs-callout {
+  font-size: 0.9em;
+  text-align: justify;
+  color: #979797;
+}
+
+.bs-callout .bs-callout-success {
+  border-left-color: #7cb342;
+}
+
+.bs-callout.bs-callout-success::before {
+  font-family: FontAwesome;
+  font-size: 1.2em;
+  color:#7cb342;
+  content: "\f05a";
+}

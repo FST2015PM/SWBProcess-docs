@@ -7,7 +7,9 @@ permalink: swbp_install.html
 folder: swbp
 ---
 
-> Para instrucciones específicas de instalación de SemanticWebBuilder Process, puede consultar los manuales correspondientes en la [página de documentación](http://semanticwebbuilder.org.mx/swb/swb/Manuales_Portal_Esoanol) de SemanticWebBuilder.
+{{site.data.alerts.callout_success}}
+Para instrucciones específicas de instalación de SemanticWebBuilder Process, puede consultar los manuales correspondientes en la <a href="http://semanticwebbuilder.org.mx/swb/swb/Manuales_Portal_Esoanol">página de documentación</a> de SemanticWebBuilder.
+{{site.data.alerts.end}}
 
 ## Instalación del Java Development Kit
 
@@ -16,8 +18,9 @@ folder: swbp
 Descargue el instalador del JDK para Windows en la [página de descargas](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) de Oracle. Asegúrese de seleccionar la versión adecuada con base en la arquitectura de su sistema operativo (x86, x64). Al finalizar la descarga execute el archivo .exe y siga las instrucciones del asistente de instalación. Es posible que necesite permisos de administrador para realizar la instalación.
 
 ### Instalación de JDK en Linux
-> Para la siguiente sección se asume el uso de una distribución de Linux basada en debian.
-
+{{site.data.alerts.callout_success}}
+Para la siguiente sección se asume el uso de una distribución de Linux basada en debian.
+{{site.data.alerts.end}}
 Agregue el repositorio del JDK de oracle, ejecutando los siguientes comandos en una terminal:
 
 ````sh
@@ -47,7 +50,9 @@ Para más información sobre la definición de variables de entorno, consulte la
 ## Instalación de un servidor de bases de datos
 SWB Process está configurado de manera predeterminada para iniciar mediante una base de datos en memoria, esto puede servir para fines de prueba o desarrollo. Sin embargo, para despliegues en servidores productivos, es necesario contar con un servidor de bases de datos.
 
->Esta sección asume el uso de MySQL como servidor de base de datos. Para instalar un servidor de base de datos distinto a MySQL consulte los manuales de instalación correspondientes.
+{{site.data.alerts.callout_success}}
+Esta sección asume el uso de MySQL como servidor de base de datos. Para instalar un servidor de base de datos distinto a MySQL consulte los manuales de instalación correspondientes.
+{{site.data.alerts.end}}
 
 ### Instalación de MySQL en Windows
 Dscargue el instalador de MySQL de la [página de descargas](http://dev.mysql.com/downloads/installer/) de MySQL. Asegúrese de seleccionar la versión adecuada con base en la arquitectura de su sistema operativo (32 bits, 64 bits). Al finalizar la descarga execute el archivo .msi y siga las instrucciones del asistente de instalación. Es posible que necesite permisos de administrador para realizar la instalación.
@@ -55,7 +60,9 @@ Dscargue el instalador de MySQL de la [página de descargas](http://dev.mysql.co
 Si desea configurar MySQL como un servicio de Windows, consulte la [documentacion](http://dev.mysql.com/doc/refman/5.7/en/windows-start-service.html) al respecto en la página de MySQL.
 
 ### Instalación de MySQL en Linux
-> Para la siguiente sección se asume el uso de una distribución de Linux basada en debian.
+{{site.data.alerts.callout_success}}
+Para la siguiente sección se asume el uso de una distribución de Linux basada en debian.
+{{site.data.alerts.end}}
 
 Para instalar MySQL en linux, ejecute en una terminal los siguientes comandos:
 
@@ -68,7 +75,9 @@ sudo apt-get install mysql-server
 Descargue el instalador de MySQL para Mac en la [página de descargas](http://dev.mysql.com/downloads/mysql/) de MySQL, seleccionando el archivo DMG. Al finalizar la descarga abra la imagen de disco .dmg y siga las instrucciones del asistente de instalación. Necesitará permisos de administración para realizar la instalación.
 
 ### Post-instalación
-> Para ambientes productivos, deberá establecer los mecanismos de seguridad pertinentes en la base de datos
+{{site.data.alerts.callout_success}}
+Para ambientes productivos, deberá establecer los mecanismos de seguridad pertinentes en la base de datos
+{{site.data.alerts.end}}
 
 Después de instalar MySQL, deberá crear una base de datos. Puede usar cualquier nombre, aunque por defecto, se sugiere el nombre **swb**. Recuerde el nombre de la base de datos, así como los datos de acceso a la misma (si ha definido un usuario para acceso al servidor) ya que esta información será necesaria para configurar la conexión en SWB Process.
 
@@ -77,12 +86,16 @@ Después de instalar MySQL, deberá crear una base de datos. Puede usar cualquie
 ### Instalación de Apache Tomcat en Windows
 Descargue los archivos binarios de Apache Tomcat en la [página de descargas](https://tomcat.apache.org/download-90.cgi). Asegúrese de seleccionar la versión adecuada con base en la arquitectura de su sistema operativo (32 bits, 64 bits).
 
-> Si desea instalar Apache Tomcat como un servicio de Windows, deberá seleccionar el archivo ejecutable.
+{{site.data.alerts.callout_success}}
+Si desea instalar Apache Tomcat como un servicio de Windows, deberá seleccionar el archivo ejecutable.
+{{site.data.alerts.end}}
 
 Al finalizar la descarga descomprima el archivo en una ubicación que recuerde. Si ha seleccionado usar Apache Tomcat como un servicio de windows, estará disponible en la ventana de servicios del sistema operativo. Para más información consulte la [página de instalación](https://tomcat.apache.org/tomcat-9.0-doc/setup.html) de Apache Tomcat.
 
 ### Instalación de Apache Tomcat en Linux
-> Para la siguiente sección se asume el uso de una distribución de Linux basada en debian.
+{{site.data.alerts.callout_success}}
+Para la siguiente sección se asume el uso de una distribución de Linux basada en debian.
+{{site.data.alerts.end}}
 
 Para instalar Apache Tomcat como servicio en linux, ejecute en una terminal el siguiente comando, sustituyendo la X por la versión deseada:
 
@@ -104,12 +117,16 @@ Esto instalará Apache Tomcat en la ruta __/opt/tomcat__.
 Descargue los archivos binarios de Apache Tomcat en la [página de descargas](https://tomcat.apache.org/download-90.cgi). Al finalizar la descarga, descomprima el archivo y copie el contenido a una ubicación que recuerde.
 
 ### Post-instalación
-> Para ambientes productivos, deberá establecer los mecanismos de seguridad pertinentes en el servidor de aplicaciones
+{{site.data.alerts.callout_success}}
+Para ambientes productivos, deberá establecer los mecanismos de seguridad pertinentes en el servidor de aplicaciones
+{{site.data.alerts.end}}
 
 Para obtener información sobre cómo iniciar o detener el servidor de aplicaciones, consulte la [introducción](http://tomcat.apache.org/tomcat-9.0-doc/introduction.html) a Apache Tomcat.
 
 ## Despliegue de SWB Process en el servidor de aplicaciones
-> En esta sección se utilizará el prefijo CATALINA_HOME para referirse al directorio de instalación de Apache Tomcat en el sistema operativo
+{{site.data.alerts.callout_success}}
+En esta sección se utilizará el prefijo CATALINA_HOME para referirse al directorio de instalación de Apache Tomcat en el sistema operativo
+{{site.data.alerts.end}}
 
 ### Detener el servidor de aplicaciones
 Para desplegar SemanticWebBuilder Process en el servidor de aplicaciones deberá primero detenerlo. Si su sistema operativo es Windows y ha instalado Apache Tomcat como servicio, podrá hacer esto desde la ventana de servicios.
