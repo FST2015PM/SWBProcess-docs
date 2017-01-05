@@ -7,13 +7,21 @@ permalink: swbp_users.html
 folder: swbp
 ---
 
+## Repositorios de usuarios
+
 ## Creación de usuarios
 
-## Asignación de roles
+## Edición de las propiedades de un usuario
 
-## Asignación de grupos
+## Control de acceso
 
-## Aplicación de filtros de usuario
+### Asignación de roles
+
+### Asignación de grupos
+
+### Aplicación de filtros de usuario
+
+### Activación/desactivación de usuarios
 
 ## Eliminación de usuarios
 

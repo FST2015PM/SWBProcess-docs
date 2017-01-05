@@ -70,7 +70,11 @@ Finalmente, se mostrará un mensaje de confirmación de la acción y en el acord
 {% include image.html class="centered small shadow adjusted" file="screenshots/swbp_process_created.png" alt="Sitio creado" %}
 
 ## Estructura de un sitio Web de procesos
-Al crear un nuevo sitio de procesos, ya sea vacío o desde la plantilla predeterminada, éste presentará en los acordeones de estructura, una estructura similar a la de la figura.
+{{site.data.alerts.callout_success}}
+Aunque en esta sección se describen todos los elementos de un sitio Web de procesos, en el resto de la documentación sólo se hará uso de algunos de ellos, relevantes para la gestión de SWBProcess.
+{{site.data.alerts.end}}
+
+Al crear un nuevo sitio de procesos, ya sea vacío o desde la plantilla predeterminada, éste presentará en los acordeones de estructura, una organización similar a la de la figura.
 
 {% include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_structure.png" alt="Estructura de un sitio de procesos" %}
 
@@ -97,18 +101,88 @@ Cada elemento (nodo) en el árbol de estructura del sitio se describe a continua
 |Home(SWBProcess)|Contiene la estructura de páginas Web del sitio. SWBProcess tiene una estructura previamente definida, por lo que no debe editar el nodo llamado _Herramientas de SWBProcess_ en la estructura de páginas. Puede obtener más información sobre la gestión de páginas Web en el [manual](http://www.semanticwebbuilder.org.mx/en_mx/swb/Manuales_Portal_Esoanol/_rid/431/_mto/3/_act/download/doc/Creacion_y_Administracion_de_Paginas_Web.pdf) correspondiente.|
 
 ## Edición de la configuración de un sitio de procesos
+Podrá editar la configuración de los sitios de procesos mediante sus pestañas de configuración o mediante las acciones disponibles en el árbol de estructura. Para acceder a las pestañas de configuración, deberá hacer doble click en el icono de sitio en el acordeon de estructura de sitios. Esto mostrará las pestañas en la zona de trabajo como se muestra en la siguiente figura.
 
-* Acceder a las pestañas de configración
-* Tabla de pestañas
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_site_tabs.png" alt="Pestañas de configuración del sitio"%}
 
-### Activación/desactivación de un sitio de procesos
+La siguiente tabla describe cada una de las pestañas presentadas.
 
-### Edición de la información principal del sitio
-* Tabla de propiedades
+|Pestaña|Descripción|
+|---|---|
+|Información|Muestra el formulario para la edición de la información principal del sitio.|
+|Ontologías|Permite agregar modelos ontológicos al sitio.|
+|Papelera de reciclaje|Permite gestionar y recuperar los elementos eliminados en el sitio.|
+|Propiedades|Permite agregar propiedades extendidas al sitio.|
+|Relacionados|Muestra los elementos relacionados con el sitio de acuerdo con la definición del modelo ontológico.|
+|Bitácora|Muestra un log con los cambios realizados al sitio web.|
+
+### Edición de las propiedades generales del sitio
+Para modificar las propiedades generales del sitio deberá acceder a la pestaña de información, como se indica previamente. Se presentará un formulario donde prodá modificar la información de acuerdo con la siguiente tabla.
+
+|Propiedad|Descripción|
+|---|---|
+|Título|Nombre del proceso como será mostrado en el sitio de administración. Puede agregar un título para los idiomas definidos en el sitio. Este campo es utilizado para búsquedas.|
+|Descripción|Descripción del sitio de procesos. Puede agregar una descripción para los idiomas definidos en el sitio. Este campo es utilizado para búsquedas.|
+|Activo|Indica si el sitio está activo o inactivo. |
+|Indexable|Indica si el sitio será indexado por el motor de búsqueda.|
+|Plantilla por omisión|Permite seleccionar la plantilla que será aplicada por defecto a las páginas Web del sitio.|
+|Lenguaje|Permite seleccionar el idioma aplicado por defecto al sitio.|
+|País|Permite seleccionar el país aplicado por defecto al sitio.|
+|Página inicial|Permite seleccionar la página que se mostrará como inicio al acceder a la URL del sitio.|
+|Repositorio de usuarios|Permite seleccionar el repositorio de usuarios asociado al sitio.|
+
+
+### Activación/desactivación de elementos en un sitio de procesos
+Muchos de los elementos de un sitio de procesos (por ejemplo páginas Web, reglas, plantillas, procesos, etcétera) pueden ser activados o desactivados en cualquier momento, incluyendo el mismo sitio. Las páginas Web desactivadas no son mostradas a los usuarios en la navegación y los elementos de configuración desactivados no son aplicados.
+
+A continuación se describe el procedimiento para activar o desactivar un sitio de procesos, aunque dicho procedimiento aplica para los demás elementos. Podrá activar o desactivar un sitio marcando o desmarcando la casilla del campo **Activo** en el formulario de la pestaña de información del sitio.
+
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_site_active.png" alt="Casilla de activación del sitio"%}
+
+También puede realizar la acción desde el árbol de estructura, haciendo click con el botón derecho sobre el nombre del sitio y seleccionando la opción **Activar** o **Desactivar** según corresponda, como se muestra en la siguiente figura.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_activemenu.png" alt="Opción de activación del sitio"%}
+
+En ciualquier caso, el icono del sitio cambiará de acuerdo con la configuración. Éste será azul {% include inline_image.html file="screenshots/icon_siteb.gif" %} cuando el sitio esté activo y rojo {% include inline_image.html file="screenshots/icon_sitein.png" %} cuando el sitio esté inactivo.
+
+{{site.data.alerts.callout_warning}}
+Debe tomar en cuenta que los elementos inactivos no son mostrados a los usuarios en la navegación. En el caso de los sitios, éstos no son accesibles mediante su URL, tampoco son considerados en los resultados de los buscadores de SemanticWebBuilder Process. Del mismo modo, si tiene configurados DNS que apuntan a un sitio inactivo, el sitio no será mostrado al acceder mediante el nombre de dominio.
+{{site.data.alerts.end}}
 
 ### Uso de la papelera de reciclaje del sitio
+Muchos de los elementos eliminados en un sitio de procesos son enviados a la papelera de reciclaje antes de ser eliminados definitivamente. Esto permite recuperar elementos eliminados de manera accidental.
+
+Para acceder a la papelera de reciclaje del sitio de procesos, deberá acceder primero a las pestañas de configuración haciendo doble click en el icono de sitio en el acordeon de estructura de sitios. Posteriormente, deberá seleccionar la pestaña **Papelera de Reciclaje**, mostrada a continuación.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_trash.png" alt="Papelera de reciclaje del sitio"%}
+
+Para eliminar un elemento de manera definitiva, haga click en el ícono _Eliminar de la papelera_ {% include inline_image.html file="screenshots/trash_vacio.gif" class="icon"%}. Se le pedirá confirmación de la acción. Si acepta, el elemento desaparecerá de la papelera y será eliminado de SWBProcess.
+
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_trash_delete_confirm.png" alt="Confirmación de eliminación"%}
+
+{{site.data.alerts.callout_warning}}
+Al eliminar un elemento de la papelera se elimina no sólo la información asociada al elemento, sino también los archivos correspondientes que el elemento generó en el disco duro. Asegúrese de conocer todas las implicaciones antes de eliminar un elemento de la papelera.
+{{site.data.alerts.end}}
+
+Para recuperar un elemento de la papelera, haga click en el ícono _Recuperar de la papelera_ {% include inline_image.html file="screenshots/recover.gif" class="icon"%}. Se le pedirá confirmación de la acción. Si acepta, el elemento desaparecerá de la papelera y será restaurado a su ubicación en el árbol de estructura del sitio.
+
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_trash_recover_confirm.png" alt="Confirmación de recuperación"%}
 
 ### Eliminación de sitios Web de procesos
+{{site.data.alerts.callout_warning}}
+Al eliminar un sitio de procesos se elimina no sólo la información asociada, sino también los archivos correspondientes generados en el disco duro. Asegúrese de conocer todas las implicaciones antes de eliminar un sitio de procesos.
+{{site.data.alerts.end}}
 
+Podrá eliminar un sitio de procesos presionando el botón **Eliminar** en el formulario de la pestaña de información del sitio.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_site_delete.png" alt="Botón de eliminación"%}
+
+También puede realizar la acción desde el árbol de estructura, haciendo click con el botón derecho sobre el nombre del sitio y seleccionando la opción **Eliminar**, como se muestra en la siguiente figura.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_removeoption.png" alt="Opción de eliminación del sitio"%}
+
+En cualquier caso, se solicitará confirmación de la acción. Si acepta, el sitio será eliminado y desaparecerá del acordeon de estructura de sitios.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_confirmdelete.png" alt="Confirmación de eliminación del sitio"%}
 
 {% include links.html %}

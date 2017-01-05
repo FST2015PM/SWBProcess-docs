@@ -18,6 +18,10 @@ SWB Process hace uso de las tecnologías de la Web Semántica (mediante su const
 
 Para el modelado de procesos de negocio, SWB Process hace uso de la notación del estándar BPMN 2.0 y para el intercambio de diagramas de procesos, el estándar XPDL 2.0.
 
+{{site.data.alerts.callout_success}}
+Usted verá los términos <i>ontología</i> y <i>modelo ontológico</i> a lo largo de toda la documentación. En términos simples, se les puede considerar un modelo de datos basado en conceptos y sus relaciones. Si desea conocer más acerca de las ontologías y los estándares asociados puede consultar la página de la <a href="https://www.w3.org/standards/semanticweb/ontology">W3C</a>.
+{{site.data.alerts.end}}
+
 ## Características
 
 SemanticWebBuilder Process provee los siguientes componentes:
