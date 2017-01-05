@@ -134,6 +134,10 @@ table > thead > tr > th {
   font-weight: normal;
 }
 
+table > tbody > tr > td {
+  font-size: 14px;
+}
+
 #disqus_thread {
     margin-top: 30px;
 }
@@ -162,6 +166,30 @@ table > thead > tr > th {
   content: "\f071";
 }
 
-img.menuoption {
-  max-width: 70%;
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.adjusted {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+img.shadow {
+  -webkit-box-shadow: 0px 13px 42px 1px rgba(135,135,135,0.79);
+  -moz-box-shadow: 0px 13px 42px 1px rgba(135,135,135,0.79);
+  box-shadow: 0px 13px 42px 1px rgba(135,135,135,0.79);
+  max-width: 90%;
+}
+
+@media only screen and (min-width: 720px), @media only screen and (min-device-width: 900px) {
+  img.medium {
+    max-width: 70%;
+  }
+
+  img.small {
+    max-width: 50%;
+  }
 }

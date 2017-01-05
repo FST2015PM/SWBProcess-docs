@@ -218,6 +218,6 @@ sh startup.sh
 
 Después de que el servidor de aplicaciones inicie, podrá acceder a la administración de SemanticWebBuilder Process en un navegador, utilizando la URL [http://localhost:8080/swbadmin](http://localhost:8080/swbadmin). Se presentará la patalla de bienvenida a SWBProcess.
 
-![SWB Process Admin Login](images/screenshots/swbp_admlogin.png)
+{%include image.html class="centered" file="screenshots/swbp_admlogin.png" alt="Pantalla de inicio de sesión"%}
 
 {% include links.html %}
