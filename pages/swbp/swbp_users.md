@@ -72,7 +72,7 @@ Posteriormente, deberá hacer click con el botón derecho en el nodo _Roles_ {% 
 
 Se presentará el diálogo _Agregar Rol_ como se muestra en la siguiente figura.
 
-{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newrole_dialog.png" alt="Diálogo crear repositorio"%}
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newrole_dialog.png" alt="Diálogo crear rol"%}
 
 Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguiente descripción de campos.
 
@@ -100,7 +100,7 @@ También puede realizar la acción desde el árbol del repositorio, haciendo cli
 
 En cualquier caso, se solicitará confirmación de la acción. Si acepta, el rol será eliminado y desaparecerá del árbol del repositorio de usuarios.
 
-{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_role_deleteconfirm.png" alt="Opción de eliminación del sitio"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_role_deleteconfirm.png" alt="Opción de eliminación del rol"%}
 
 {{site.data.alerts.callout_warning}}
 Al eliminar un rol, se eliminan las asociaciones del mismo con los usuarios y los elementos del sitio, por lo que las restricciones de acceso cambiarán en consecuencia.
@@ -115,11 +115,11 @@ Para crear un grupo de usuarios, deberá primero ubicar el repositorio de usuari
 
 Posteriormente, deberá hacer click con el botón derecho en el nodo _Grupos de usuarios_ {% include inline_image.html file="screenshots/icon_usergroup.png" class="icon" %} y seleccionar la opción **Agregar Grupo de Usuarios** como se muestra en la siguiente figura.
 
-{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_addrole_menu.png" alt="Opción para agregar rol"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_addgroup_menu.png" alt="Opción para agregar rol"%}
 
 Se presentará el diálogo _Agregar Grupo de Usuarios_ como se muestra en la siguiente figura.
 
-{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newrole_dialog.png" alt="Diálogo crear repositorio"%}
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newgroup_dialog.png" alt="Diálogo crear grupo"%}
 
 Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguiente descripción de campos.
 
@@ -130,11 +130,28 @@ Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguien
 
 Finalmente, deberá presionar el botón **Guardar**. El nuevo grupo se presentará en el árbol del repositorio correspondiente.
 
-{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_newrole_tree.png" alt="Nuevo rol en el repositorio"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_newgroup_tree.png" alt="Nuevo grupo en el repositorio"%}
 
 Al mismo tiempo, se mostrarán las pestañas de edición del grupo en la zona de trabajo, con la pestaña _Información_ seleccionada, como se muestra en la siguiente figura.
 
-{%include image.html class="centered shadow adjusted" file="screenshots/swbp_role_tabs.png" alt="Pestañas de configuración del rol"%}
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_group_tabs.png" alt="Pestañas de configuración del grupo"%}
+
+### Eliminación de grupos de usuarios
+Podrá eliminar un grupo de usuarios de un repositorio presionando el botón **Eliminar** en el formulario de la pestaña de información del grupo.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_group_removebutton.png" alt="Botón de eliminación"%}
+
+También puede realizar la acción desde el árbol del repositorio, haciendo click con el botón derecho sobre el nombre del grupo y seleccionando la opción **Eliminar**, como se muestra en la siguiente figura.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_group_removeoption.png" alt="Opción de eliminación del grupo"%}
+
+En cualquier caso, se solicitará confirmación de la acción. Si acepta, el grupo será eliminado y desaparecerá del árbol del repositorio de usuarios.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_group_deleteconfirm.png" alt="Opción de eliminación del grupo"%}
+
+{{site.data.alerts.callout_warning}}
+Al eliminar un grupo de usuarios, se eliminan las asociaciones del mismo con los usuarios y los elementos del sitio, por lo que las restricciones de acceso cambiarán en consecuencia.
+{{site.data.alerts.end}}
 
 ## Gestión de usuarios
 
