@@ -204,4 +204,8 @@ img.shadow {
   img.small {
     max-width: 50%;
   }
+
+  img.x-small {
+    max-width: 40%;
+  }
 }
