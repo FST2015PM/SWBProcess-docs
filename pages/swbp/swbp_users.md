@@ -155,6 +155,8 @@ Al eliminar un grupo de usuarios, se eliminan las asociaciones del mismo con los
 
 ## Gestión de usuarios
 
+### Búsquedas de usuarios
+
 ### Edición de las propiedades de un usuario
 
 ### Activación/desactivación de usuarios
@@ -166,7 +168,5 @@ Al eliminar un grupo de usuarios, se eliminan las asociaciones del mismo con los
 ### Asignación de roles
 
 ### Asignación de grupos
-
-### Aplicación de filtros de usuario
 
 {% include links.html %}

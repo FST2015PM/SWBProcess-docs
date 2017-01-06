@@ -149,6 +149,7 @@ table > tbody > tr > td {
 .bs-callout {
   font-size: 0.9em;
   text-align: justify;
+  background-color: #fff;
   color: #979797;
 }
 
