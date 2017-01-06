@@ -147,14 +147,14 @@ sh shutdown.sh
 ````
 
 ### Preparación del despliegue
-1. Descargue el archivo WAR de SemanticWebBuilder Process y guardelo en _CATALINA_HOME/webapps_.
-2. Dirijase a _CATALINA_HOME/webapps_ y elimine todo el contenido de la carpeta.
+1. Descargue el archivo WAR de SemanticWebBuilder Process y guárdelo en _CATALINA_HOME/webapps_.
+2. Diríjase a _CATALINA_HOME/webapps_ y elimine todo el contenido de la carpeta.
 3. En _CATALINA_HOME/webapps_ cree una nueva carpeta llamada _ROOT_.
 3. Descomprima el contenido del archivo WAR dentro de la carpeta _ROOT_. Si su sistema operativo es Windows, puede cambiar la extensión del archivo .WAR a .ZIP.
 
 
 ### Configuración de la conexión al servidor de bases de datos
-Con un editor de textos, abra el archivo _CATALINA_HOME/webapps/ROOT/WEB-INF/classes/db.properties_. Ubique la configuración actual de conexión a base de datos. Podra identificarla por las siguientes líneas:
+Con un editor de textos, abra el archivo _CATALINA_HOME/webapps/ROOT/WEB-INF/classes/db.properties_. Ubique la configuración actual de conexión a base de datos. Podrá identificarla por las siguientes líneas:
 
 ````
 drivers=org.hsqldb.jdbcDriver
@@ -178,7 +178,7 @@ Modifique el archivo para comentar la configuración y obtener algo como lo sigu
 #swb.idle_time=900
 ````
 
-Ubique el bloque de configuración de conexión con MySQL. Podra identificarla por las siguientes líneas:
+Ubique el bloque de configuración de conexión con MySQL. Podrá identificarla por las siguientes líneas:
 
 ````
 #drivers=org.gjt.mm.mysql.Driver
@@ -216,7 +216,7 @@ cd CATALINA_HOME/bin
 sh startup.sh
 ````
 
-Después de que el servidor de aplicaciones inicie, podrá acceder a la administración de SemanticWebBuilder Process en un navegador, utilizando la URL [http://localhost:8080/swbadmin](http://localhost:8080/swbadmin). Se presentará la patalla de bienvenida a SWBProcess.
+Después de que el servidor de aplicaciones inicie, podrá acceder a la administración de SemanticWebBuilder Process en un navegador, utilizando la URL [http://localhost:8080/swbadmin](http://localhost:8080/swbadmin). Se presentará la pantalla de bienvenida a SWBProcess.
 
 {%include image.html class="centered" file="screenshots/swbp_admlogin.png" alt="Pantalla de inicio de sesión"%}
 

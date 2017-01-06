@@ -10,9 +10,9 @@ folder: swbp
 ## Arquitectura del producto
 SWBProcess fue concebido para establecer una clara separación entre los roles involucrados en el ciclo de vida de los procesos. Lo anterior con la finalidad de permitir que cada actor enfoque sus capacidades en alguna etapa del desarrollo y automatización de los procesos.
 
-Por este motivo, existen dos puntos de acceso a herramientas específicas que proveen acciones concretas para grupos de perfiles. Estos puntos de acceso son el **sitio de administación de SWBProcess** y el **sitio Web de procesos**.
+Por este motivo, existen dos puntos de acceso a herramientas específicas que proveen acciones concretas para grupos de perfiles. Estos puntos de acceso son el **sitio de administración de SWBProcess** y el **sitio Web de procesos**.
 
-## Sitio Web de administarción
+## Sitio Web de administración
 Es un punto de acceso con herramientas administrativas que permite, entre otras acciones, la gestión de sitios de procesos, usuarios y permisos, monitoreo general de la aplicación y generación de reportes de rendimiento. Podrá acceder a este sitio mediante el prefijo **/swbadmin** en la URL de la aplicación (por ejemplo: http://localhost:8080/swbadmin).
 
 {{site.data.alerts.callout_success}}

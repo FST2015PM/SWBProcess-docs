@@ -27,12 +27,12 @@ Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguien
 
 |Campo|Descripción|
 |---|---|
-|Título|Nombre visible del sitio en toda la adminisración, este nombre es usado como campo de búsqueda.|
+|Título|Nombre visible del sitio en toda la administración, este nombre es usado como campo de búsqueda.|
 |Identificador|Identificador único del sitio, usado en la URL de navegación. De existir el valor capturado se marcará el campo como erróneo.|
 |Repositorio a utilizar|Combo de opciones para seleccionar el repositorio de usuarios a utilizar. Se mostrarán los repositorios existentes así como las opciones _Exclusive_, _Default UserRepository_ y _Admin UserRepository_ |
 |Tipo de sitio|Combo de opciones para seleccionar el modelo de sitio a utilizar. Se mostrarán opciones como _Sitio Web_, _Sitio de Administración_ y _Sitio de Procesos_|
 
-Finalmente, deberá presionar el botón **Guardar**. Se mostrará un mensaje de confirmación de la acción y en el acordeon de estructura de sitios se presentará el sitio recién creado.
+Finalmente, deberá presionar el botón **Guardar**. Se mostrará un mensaje de confirmación de la acción y en el acordeón de estructura de sitios se presentará el sitio recién creado.
 
 {{site.data.alerts.callout_success}}
 Si desea obtener más información sobre la creación de sitios Web y la descripción de los tipos de sitios y repositorios, puede consultar la <a href="http://semanticwebbuilder.org.mx/swb/swb/Manuales_Portal_Esoanol">página de documentación</a> de SemanticWebBuilder.
@@ -65,7 +65,7 @@ Tras aceptar, se mostrará información del progreso. El sitio será instalado c
 
 {% include image.html class="centered shadow adjusted" file="screenshots/swbp_template_progress.png" alt="Indicador de progreso" %}
 
-Finalmente, se mostrará un mensaje de confirmación de la acción y en el acordeon de estructura de sitios se presentará el sitio recién creado.
+Finalmente, se mostrará un mensaje de confirmación de la acción y en el acordeón de estructura de sitios se presentará el sitio recién creado.
 
 {% include image.html class="centered small shadow adjusted" file="screenshots/swbp_process_created.png" alt="Sitio creado" %}
 
@@ -97,11 +97,11 @@ Cada elemento (nodo) en el árbol de estructura del sitio se describe a continua
 |Componentes de contenido|Contiene el catálogo de componentes de contenido del sitio. Estos elementos son utilizados como bloques de funcionalidad o información en las páginas del sitio. Puede obtener más información sobre la gestión de componentes de contenido en el [manual](http://www.semanticwebbuilder.org.mx/en_mx/swb/Manuales_Portal_Esoanol/_rid/423/_mto/3/_act/download/doc/Administracion_y_Publicacion_de_Componentes_de_Contenido.pdf) correspondiente.|
 |Herramientas de proceso|Contiene el catálogo de elementos utilizados en la configuración de uno o más procesos: _Certificados_, _Plantillas de notificaciones_, _Intervalos de ejecución_, _Reglas de negocio_, _Conexiones a bases de datos_, _Servicios Web_ y _Propiedades de asignación_.|
 |Procesos|Contiene la definición de los procesos de negocio del sitio, sus modelos y sus grupos.|
-|Repositorio de usuarios|Contiene el repostorio de usuarios asociado al sitio, los roles y grupos de usuarios.|
+|Repositorio de usuarios|Contiene el repositorio de usuarios asociado al sitio, los roles y grupos de usuarios.|
 |Home(SWBProcess)|Contiene la estructura de páginas Web del sitio. SWBProcess tiene una estructura previamente definida, por lo que no debe editar el nodo llamado _Herramientas de SWBProcess_ en la estructura de páginas. Puede obtener más información sobre la gestión de páginas Web en el [manual](http://www.semanticwebbuilder.org.mx/en_mx/swb/Manuales_Portal_Esoanol/_rid/431/_mto/3/_act/download/doc/Creacion_y_Administracion_de_Paginas_Web.pdf) correspondiente.|
 
 ## Edición de la configuración de un sitio de procesos
-Podrá editar la configuración de los sitios de procesos mediante sus pestañas de configuración o mediante las acciones disponibles en el árbol de estructura. Para acceder a las pestañas de configuración, deberá hacer doble click en el icono de sitio en el acordeon de estructura de sitios. Esto mostrará las pestañas en la zona de trabajo como se muestra en la siguiente figura.
+Podrá editar la configuración de los sitios de procesos mediante sus pestañas de configuración o mediante las acciones disponibles en el árbol de estructura. Para acceder a las pestañas de configuración, deberá hacer doble click en el icono de sitio en el acordeón de estructura de sitios. Esto mostrará las pestañas en la zona de trabajo como se muestra en la siguiente figura.
 
 {%include image.html class="centered shadow adjusted" file="screenshots/swbp_site_tabs.png" alt="Pestañas de configuración del sitio"%}
 
@@ -117,7 +117,7 @@ La siguiente tabla describe cada una de las pestañas presentadas.
 |Bitácora|Muestra un log con los cambios realizados al sitio web.|
 
 ### Edición de las propiedades generales del sitio
-Para modificar las propiedades generales del sitio deberá acceder a la pestaña de información, como se indica previamente. Se presentará un formulario donde prodá modificar la información de acuerdo con la siguiente tabla.
+Para modificar las propiedades generales del sitio deberá acceder a la pestaña de información, como se indica previamente. Se presentará un formulario donde podrá modificar la información de acuerdo con la siguiente tabla.
 
 |Propiedad|Descripción|
 |---|---|
@@ -152,7 +152,7 @@ Debe tomar en cuenta que los elementos inactivos no son mostrados a los usuarios
 ### Uso de la papelera de reciclaje del sitio
 Muchos de los elementos eliminados en un sitio de procesos son enviados a la papelera de reciclaje antes de ser eliminados definitivamente. Esto permite recuperar elementos eliminados de manera accidental.
 
-Para acceder a la papelera de reciclaje del sitio de procesos, deberá acceder primero a las pestañas de configuración haciendo doble click en el icono de sitio en el acordeon de estructura de sitios. Posteriormente, deberá seleccionar la pestaña **Papelera de Reciclaje**, mostrada a continuación.
+Para acceder a la papelera de reciclaje del sitio de procesos, deberá acceder primero a las pestañas de configuración haciendo doble click en el icono de sitio en el acordeón de estructura de sitios. Posteriormente, deberá seleccionar la pestaña **Papelera de Reciclaje**, mostrada a continuación.
 
 {%include image.html class="centered shadow adjusted" file="screenshots/swbp_trash.png" alt="Papelera de reciclaje del sitio"%}
 
@@ -181,7 +181,7 @@ También puede realizar la acción desde el árbol de estructura, haciendo click
 
 {%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_removeoption.png" alt="Opción de eliminación del sitio"%}
 
-En cualquier caso, se solicitará confirmación de la acción. Si acepta, el sitio será eliminado y desaparecerá del acordeon de estructura de sitios.
+En cualquier caso, se solicitará confirmación de la acción. Si acepta, el sitio será eliminado y desaparecerá del acordeón de estructura de sitios.
 
 {%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_confirmdelete.png" alt="Confirmación de eliminación del sitio"%}
 

@@ -8,7 +8,7 @@ folder: swbp
 ---
 
 ## Cambio de la contraseña del usuario administrador
-En un navegador dirijase a la URL [http://localhost:8080/swbadmin](http://localhost:8080/swbadmin) e inicie sesión con el usuario **admin** y el password **webbuilder**. En el sitio de administración, haga click en el nombre del usuario actual, ubicado en la parte superior derecha, como se muestra en la siguiente figura.
+En un navegador diríjase a la URL [http://localhost:8080/swbadmin](http://localhost:8080/swbadmin) e inicie sesión con el usuario **admin** y el password **webbuilder**. En el sitio de administración, haga click en el nombre del usuario actual, ubicado en la parte superior derecha, como se muestra en la siguiente figura.
 
 {%include image.html class="centered shadow adjusted" file="screenshots/swbp_adminuser.png" alt="Enlace al usuario administrador"%}
 

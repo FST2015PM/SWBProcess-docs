@@ -7,10 +7,10 @@ permalink: swbp_admin_ui.html
 folder: swbp
 ---
 
-Para aceder al sitio Web de administración, deberá utilizar la URL correspondiente y proporcionar los datos de acceso necesarios. Para más información puede consultar la información en la sección [sitio web de administración](http://localhost:4000/swbp_app_components.html#sitio-web-de-administarcin)
+Para acceder al sitio Web de administración, deberá utilizar la URL correspondiente y proporcionar los datos de acceso necesarios. Para más información puede consultar la información en la sección [sitio web de administración](http://localhost:4000/swbp_app_components.html#sitio-web-de-administarcin)
 
 ## Estructura general
-El sitio Web de administarción proporciona a los usuarios los elementos mostrados en la siguiente figura. Cada elemento se describe en la sección correspondiente.
+El sitio Web de administración proporciona a los usuarios los elementos mostrados en la siguiente figura. Cada elemento se describe en la sección correspondiente.
 
 ![Interfaz de administración](images/screenshots/admin_ui.png)
 
@@ -24,13 +24,13 @@ Delimitada en el recuadro rojo, contiene las opciones generales de la administra
 |Reportes|Opciones para generación de reportes de acceso, usuarios, sesiones, etcétera|
 |Ver|Opciones para gestión de flujos de publicación de contenidos|
 |Usuarios|Gestión de usuarios, asignación de roles y filtros de acceso|
-|Sistema|Opciones para el monitoreo y configuración del desepeño de la instancia de SWBProcess|
+|Sistema|Opciones para el monitoreo y configuración del desempeño de la instancia de SWBProcess|
 |Ayuda|Enlaces a la ayuda de SemanticWebBuilder|
 
 ### Acordeones de estructura
-Delimitados en color verde, muestran diversos elementos de configuración de la estructura de los sitios generados, así como herramientas y funcionalidades de operación general. Los acordeones presentados se describen en la siguiente tabla.
+Delimitados en color verde, muestran diversos elementos de configuración de la estructura de los sitios generados, así como herramientas y funciones de operación general. Los acordeones presentados se describen en la siguiente tabla.
 
-|Acordeon|Descripción|
+|Acordeón|Descripción|
 |---|---|
 |Sitios|Presenta el árbol de estructura de los sitios existentes|
 |Repositorios de usuarios|Provee acceso directo a los repositorios de usuarios de los sitios existentes|

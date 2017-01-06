@@ -16,12 +16,12 @@ Un repositorio de usuarios puede ser compartido entre varios sitios, aunque no e
 
 SWBProcess cuenta con un repositorio denominado _Admin_. Este repositorio está asociado al sitio de administración de SWBProcess y contiene el registro de los usuarios con facultades para administrar los distintos sitios de procesos. Por otro lado, el sitio de demostración instalado con SWBProcess contiene un repositorio de usuarios con los siguientes perfiles para realizar pruebas:
 
-|Usuario|Password|Descripción|
-|---|---|---|
-|admin|webbuilder|Usuario con rol de administrador|
-|empleado|empleado|Usuario con rol de empleado|
-|director|director|Usuario con rol de director|
-|humanos|humanos|Usuario con rol de RH|
+|Usuario|Password|Rol asociado|Descripción|
+|---|---|---|---|
+|admin|webbuilder|Administrador|Usuario con rol de administrador|
+|empleado|empleado|Empleado|Usuario con rol de empleado|
+|director|director|Director|Usuario con rol de director|
+|humanos|humanos|RH|Usuario con rol de RH|
 
 {{site.data.alerts.callout_success}}
 A los usuarios del repositorio <i>Admin</i> se les denomina usuarios administradores. Es importante no asignar el repositorio <i>Admin</i> a los sitios de procesos.
@@ -29,7 +29,7 @@ A los usuarios del repositorio <i>Admin</i> se les denomina usuarios administrad
 
 Podrá acceder a los repositorios de usuario haciendo click en el acordeón **Repositorios de usuarios**.
 
-{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_repaccordeon.png" alt="Acordeon de repositorios de usuarios" %}
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_repaccordeon.png" alt="Acordeón de repositorios de usuarios" %}
 
 Al expandirse el acordeón se mostrará la lista de los repositorios existentes, sus roles y grupos relacionados como se muestra en la siguiente figura.
 
@@ -221,7 +221,7 @@ Para acceder a las propiedades de configuración de un usuario deberá hacer dob
 {%include image.html class="centered shadow adjusted" file="screenshots/swbp_user_tabs.png" alt="Pestañas de configuración del usuario"%}
 
 ### Edición de las propiedades de un usuario
-Para modificar las propiedades generales de un usuario deberá acceder a la pestaña de información del mismo mediante la búsqueda, como se indica previamente. Se presentará un formulario donde prodá modificar la información de acuerdo con la siguiente tabla.
+Para modificar las propiedades generales de un usuario deberá acceder a la pestaña de información del mismo mediante la búsqueda, como se indica previamente. Se presentará un formulario donde podrá modificar la información de acuerdo con la siguiente tabla.
 
 |Propiedad|Descripción|
 |---|---|
@@ -260,9 +260,78 @@ Se solicitará confirmación de la acción. Si acepta, el usuario será eliminad
 {%include image.html class="centered small shadow adjusted" file="screenshots/swbp_user_deleteconfirm.png" alt="Opción de eliminación del usuario"%}
 
 ## Control de acceso
+SemanticWebBuilder Process permite limitar el acceso a sitios, procesos, actividades o contenidos utilizando entre otros mecanismos, los roles y grupos de usuarios. Para modificar la configuración de acceso de un usuario deberá acceder a la pestaña de configuración correspondiente, como se indica en la sección de [búsqueda de usuarios](http://localhost:4000/swbp_users.html#bsqueda-de-usuarios).
 
-### Asignación de roles
+{{site.data.alerts.callout_warning}}
+El sitio plantilla de SWBProcess cuenta con un catálogo predefinido de roles y grupos de usuarios asociados a los componentes del sitio, deberá tener cuidado al editar las configuraciones para evitar un funcionamiento inadecuado.
+{{site.data.alerts.end}}
 
-### Asignación de grupos
+### Asignación de roles a usuarios
+Acceda a la pestaña de configuración _Roles_ del usuario de su interés. Se mostrará la lista de roles asociados al usuario. Para asignar uno o más roles, presione el botón **Agregar de lista** como se muestra en la siguiente imagen.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_user_addrolesbutton.png" alt="Botón Agregar de lista"%}
+
+Se mostrará la lista de roles existentes en el repositorio de usuarios del sitio.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_rolelist.png" alt="Roles existentes" %}
+
+Podrá asignar un rol al usuario haciendo click en el enlace con su nombre en la columna _Selecciona_ de la tabla.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_rolelist_link.png" alt="Selección de rol" %}
+
+Del mismo modo, podrá asignar varios roles al usuario a la vez, seleccionando las casillas correspondientes de la columna _Marca_ en la tabla y presionando el botón **Agregar seleccionados** como se muestra en la siguiente figura.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_rolelist_selection.png" alt="Selección múltiple de roles" %}
+
+Podrá marcar o desmarcar todas las casillas de la columna _Marca_ en la tabla presionando los botones **Seleccionar todos** y **Deseleccionar todos** respectivamente. Presionando el botón **Regresar** volverá a la lista de roles asociados al usuario.
+
+Cuando asigna uno o varios roles al usuario, se muestra la vista de roles asociados con los roles correspondientes.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_rolelist_assigned.png" alt="Roles asignados al usuario" %}
+
+### Desasignación de roles a usuarios
+{{site.data.alerts.callout_warning}}
+Al desasignar un rol de un usuario las restricciones de acceso cambiarán en consecuencia.
+{{site.data.alerts.end}}
+
+Para eliminar la asignación de un rol con un usuario, en la pestaña de configuración _Roles_ deberá presionar el icono **Eliminar** {% include inline_image.html file="screenshots/delete.gif" %} en la columna _Acción_ dela tabla. Si desea eliminar todos los roles asociados, deberá presionar el botón **Eliminar todos** del formulario.
+
+En cualquier caso, se le pedirá confirmación de la acción. Si acepta, los roles serán desasociados del usuario y desaparecerán de la lista.
+
+{% include image.html class="centered small shadow adjusted" file="screenshots/swbp_user_role_removeconfirm.png" alt="Confirmación de eliminación" %}
+
+### Asignación de grupos a usuarios
+Acceda a la pestaña de configuración _Grupos de Usuarios_ del usuario de su interés. Se mostrará la lista de grupos asociados al usuario. Para asignar uno o más grupos, presione el botón **Agregar de lista** como se muestra en la siguiente imagen.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_user_addgroupsbutton.png" alt="Botón Agregar de lista"%}
+
+Se mostrará la lista de grupos existentes en el repositorio de usuarios del sitio.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_grouplist.png" alt="Grupos existentes" %}
+
+Podrá asignar un grupo al usuario haciendo click en el enlace con su nombre en la columna _Selecciona_ de la tabla.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_grouplist_link.png" alt="Selección de grupo" %}
+
+Del mismo modo, podrá asignar varios grupos al usuario a la vez, seleccionando las casillas correspondientes de la columna _Marca_ en la tabla y presionando el botón **Agregar seleccionados** como se muestra en la siguiente figura.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_grouplist_selection.png" alt="Selección múltiple de grupos" %}
+
+Podrá marcar o desmarcar todas las casillas de la columna _Marca_ en la tabla presionando los botones **Seleccionar todos** y **Deseleccionar todos** respectivamente. Presionando el botón **Regresar** volverá a la lista de grupos asociados al usuario.
+
+Cuando asigna uno o varios grupos al usuario, se muestra la vista de grupos asociados con los grupos correspondientes.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_user_grouplist_assigned.png" alt="Grupos asignados al usuario" %}
+
+### Desasignación de grupos a usuarios
+{{site.data.alerts.callout_warning}}
+Al desasignar un grupo de un usuario las restricciones de acceso cambiarán en consecuencia.
+{{site.data.alerts.end}}
+
+Para eliminar la asignación de un grupo con un usuario, en la pestaña de configuración _Grupos de Usuarios_ deberá presionar el icono **Eliminar** {% include inline_image.html file="screenshots/delete.gif" %} en la columna _Acción_ dela tabla. Si desea eliminar todos los grupos asociados, deberá presionar el botón **Eliminar todos** del formulario.
+
+En cualquier caso, se le pedirá confirmación de la acción. Si acepta, los grupos serán desasociados del usuario y desaparecerán de la lista.
+
+{% include image.html class="centered small shadow adjusted" file="screenshots/swbp_user_group_removeconfirm.png" alt="Confirmación de eliminación" %}
 
 {% include links.html %}

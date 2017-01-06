@@ -17,7 +17,7 @@ folder: swbp
 - (25/07/2012) - <i class="fa fa-bug"></i> Corregida redirección a bandeja de tareas en el manejador de formularios de procesos al concluir tarea.
 - (24/07/2012) - <i class="fa fa-bug"></i> Corregido nombre de estilo HTML en el modo avanzado del manejador de formularios de procesos.
 - (04/07/2012) - Modificado componente de creación de procesos para su uso como estrategia.
-- (04/07/2012) - <i class="fa fa-bug"></i> Corregido error de filtrado en permisis para creación de procesos en el componente CreateProcessInstance.
+- (04/07/2012) - <i class="fa fa-bug"></i> Corregido error de filtrado en permisos para creación de procesos en el componente CreateProcessInstance.
 - (15/06/2012) - <i class="fa fa-bug"></i> Corregidos errores de validación en observador de nodos de procesos.
 - (15/06/2012) - <i class="fa fa-bug"></i> Corregidos errores de validación en manejador de formularios de procesos.
 - (22/05/2012) - <i class="fa fa-bug"></i> Corregidos errores de validación en recurso de reportes de procesos en la administración de SWB Process.
@@ -74,7 +74,7 @@ folder: swbp
 - (01/06/2011) - Agregada configuración de servicios Web en configuración de tareas de servicio.
 - (31/05/2011) - Agregado listado de operaciones de servicios Web en configuración de tareas de servicio.
 - (30/05/2011) - Agregada vista de diagrama de procesos en bandeja de tareas.
-- (27/05/2011) - Agregados íconos para acciones en el repositorio de documentos.
+- (27/05/2011) - Agregados iconos para acciones en el repositorio de documentos.
 - (17/05/2011) - Agregado soporte para líneas con múltiples segmentos en objetos de conexión dentro de SWBP Modeler.
 - (19/04/2011) - Incorporada definición de propiedades de elementos llamados.
 - (14/04/2011) - Agregada propiedad para colecciones de objetos de datos.
