@@ -143,7 +143,7 @@ También puede realizar la acción desde el árbol de estructura, haciendo click
 
 {%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_activemenu.png" alt="Opción de activación del sitio"%}
 
-En ciualquier caso, el icono del sitio cambiará de acuerdo con la configuración. Éste será azul {% include inline_image.html file="screenshots/icon_siteb.gif" %} cuando el sitio esté activo y rojo {% include inline_image.html file="screenshots/icon_sitein.png" %} cuando el sitio esté inactivo.
+En cualquier caso, el icono del sitio cambiará de acuerdo con la configuración. Éste será azul {% include inline_image.html file="screenshots/icon_siteb.gif" %} cuando el sitio esté activo y rojo {% include inline_image.html file="screenshots/icon_sitein.png" %} cuando el sitio esté inactivo.
 
 {{site.data.alerts.callout_warning}}
 Debe tomar en cuenta que los elementos inactivos no son mostrados a los usuarios en la navegación. En el caso de los sitios, éstos no son accesibles mediante su URL, tampoco son considerados en los resultados de los buscadores de SemanticWebBuilder Process. Del mismo modo, si tiene configurados DNS que apuntan a un sitio inactivo, el sitio no será mostrado al acceder mediante el nombre de dominio.
