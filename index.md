@@ -1,12 +1,12 @@
 ---
-title: Introducción
+title: SemanticWeBuilder Process
 tags: [getting_started]
 sidebar: swbp_sidebar
 permalink: index.html
 summary: Esta sección brinda una introducción a SemanticWeBuilder Process y sus características.
 ---
 
-## Acerca de SemanticWebBuilder Process
+## Acerca del producto
 
 SemanticWebBuilder Process (abreviado SWBProcess) es el sistema de gestión de procesos de negocio (BPMS) de la Suite de productos SemanticWebBuilder (SWB) que tiene el objetivo de agilizar la automatización de la gestión de procesos de negocio y su seguimiento en las organizaciones. En este sentido, SWB Process permite el modelado, documentación, configuración, ejecución y monitoreo de los procesos de una organización con base en la metodología de administración de procesos de negocio (BPM).
 
