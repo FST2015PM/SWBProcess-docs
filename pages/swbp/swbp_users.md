@@ -259,13 +259,6 @@ Se solicitará confirmación de la acción. Si acepta, el usuario será eliminad
 
 {%include image.html class="centered small shadow adjusted" file="screenshots/swbp_user_deleteconfirm.png" alt="Opción de eliminación del usuario"%}
 
-## Control de acceso
-SemanticWebBuilder Process permite limitar el acceso a sitios, procesos, actividades o contenidos utilizando entre otros mecanismos, los roles y grupos de usuarios. Para modificar la configuración de acceso de un usuario deberá acceder a la pestaña de configuración correspondiente, como se indica en la sección de [búsqueda de usuarios](http://localhost:4000/swbp_users.html#bsqueda-de-usuarios).
-
-{{site.data.alerts.callout_warning}}
-El sitio plantilla de SWBProcess cuenta con un catálogo predefinido de roles y grupos de usuarios asociados a los componentes del sitio, deberá tener cuidado al editar las configuraciones para evitar un funcionamiento inadecuado.
-{{site.data.alerts.end}}
-
 ### Asignación de roles a usuarios
 Acceda a la pestaña de configuración _Roles_ del usuario de su interés. Se mostrará la lista de roles asociados al usuario. Para asignar uno o más roles, presione el botón **Agregar de lista** como se muestra en la siguiente imagen.
 
@@ -333,5 +326,76 @@ Para eliminar la asignación de un grupo con un usuario, en la pestaña de confi
 En cualquier caso, se le pedirá confirmación de la acción. Si acepta, los grupos serán desasociados del usuario y desaparecerán de la lista.
 
 {% include image.html class="centered small shadow adjusted" file="screenshots/swbp_user_group_removeconfirm.png" alt="Confirmación de eliminación" %}
+
+## Control de acceso
+SemanticWebBuilder Process permite limitar el acceso a sitios, procesos, actividades o contenidos utilizando entre otros mecanismos, los roles y grupos de usuarios. Los elementos de un sitio de procesos que permiten la restricción de acceso mediante roles y grupos presentarán una pestaña para cada configuración, denominada _Roles_ y _Grupos_ respectivamente. La siguiente figura muestra estas pestañas en la configuración de una tarea de usuario.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_tabs.png" alt="Pestaña de roles y grupos" %}
+
+{{site.data.alerts.callout_warning}}
+El sitio plantilla de SWBProcess cuenta con un catálogo predefinido de roles y grupos de usuarios asociados a los componentes del sitio, deberá tener cuidado al editar las configuraciones para evitar un funcionamiento inadecuado.
+{{site.data.alerts.end}}
+
+### Filtrado de elementos por roles
+{{site.data.alerts.callout_success}}
+La asignación de roles definida para un elemento es heredada a sus descendientes en la estructura del sitio de procesos.
+{{site.data.alerts.end}}
+
+Acceda a la pestaña de configuración _Roles_ del elemento de su interés. Se mostrará la lista de roles asociados. Para asignar uno o más roles, presione el botón **Agregar de lista** como se muestra en la siguiente imagen.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_addrolesbutton.png" alt="Botón Agregar de lista"%}
+
+Se mostrará la lista de roles existentes en el repositorio de usuarios del sitio.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_rolelist.png" alt="Roles existentes" %}
+
+Podrá asignar un rol al elemento haciendo click en el enlace con su nombre en la columna _Selecciona_ de la tabla.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_rolelist_link.png" alt="Selección de rol" %}
+
+Del mismo modo, podrá asignar varios roles a la vez, seleccionando las casillas correspondientes de la columna _Marca_ en la tabla y presionando el botón **Agregar seleccionados** como se muestra en la siguiente figura.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_rolelist_selection.png" alt="Selección múltiple de roles" %}
+
+Podrá marcar o desmarcar todas las casillas de la columna _Marca_ en la tabla presionando los botones **Seleccionar todos** y **Deseleccionar todos** respectivamente. Presionando el botón **Regresar** volverá a la lista de roles asociados al elemento. Cuando asigna uno o varios roles al elemento, se muestra nuevamente la vista de roles asociados.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_rolelist_assigned.png" alt="Roles asignados al elemento" %}
+
+{{site.data.alerts.callout_success}}
+Por defecto, los roles asignados son evaluados de manera exclusiva, es decir, mediante una condicional <i>O</i>, donde al cumplirse la validación con uno de los roles, el usuario tendrá acceso al elemento.  
+{{site.data.alerts.end}}
+
+Podrá marcar la casilla **Evaluar como Y** si desea que sea mandatorio la evaluación de todos los roles para conceder acceso al elemento. También podrá marcar la casilla **No heredar** si desea que la configuración del elemento no se aplique a sus descendientes.
+
+### Filtrado de elementos por grupos de usuarios
+{{site.data.alerts.callout_success}}
+La asignación de grupos definida para un elemento es heredada a sus descendientes en la estructura del sitio de procesos.
+{{site.data.alerts.end}}
+
+Acceda a la pestaña de configuración _Grupos_ del elemento de su interés. Se mostrará la lista de grupos asociados. Para asignar uno o más grupos, presione el botón **Agregar de lista** como se muestra en la siguiente imagen.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_addgroupsbutton.png" alt="Botón Agregar de lista"%}
+
+Se mostrará la lista de grupos existentes en el repositorio de usuarios del sitio.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_grouplist.png" alt="Grupos existentes" %}
+
+Podrá asignar un grupo al elemento haciendo click en el enlace con su nombre en la columna _Selecciona_ de la tabla.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_grouplist_link.png" alt="Selección de grupo" %}
+
+Del mismo modo, podrá asignar varios grupos a la vez, seleccionando las casillas correspondientes de la columna _Marca_ en la tabla y presionando el botón **Agregar seleccionados** como se muestra en la siguiente figura.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_grouplist_selection.png" alt="Selección múltiple de grupos" %}
+
+Podrá marcar o desmarcar todas las casillas de la columna _Marca_ en la tabla presionando los botones **Seleccionar todos** y **Deseleccionar todos** respectivamente. Presionando el botón **Regresar** volverá a la lista de grupos asociados al elemento. Cuando asigna uno o varios grupos al elemento, se muestra nuevamente la vista de grupos asociados.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_usertask_grouplist_assigned.png" alt="Grupos asignados al elemento" %}
+
+{{site.data.alerts.callout_success}}
+Por defecto, los grupos asignados son evaluados de manera exclusiva, es decir, mediante una condicional <i>O</i>, donde al cumplirse la validación con uno de los grupos, el usuario tendrá acceso al elemento.  
+{{site.data.alerts.end}}
+
+Podrá marcar la casilla **Evaluar como Y** si desea que sea mandatorio la evaluación de todos los grupos para conceder acceso al elemento. También podrá marcar la casilla **No heredar** si desea que la configuración del elemento no se aplique a sus descendientes.
 
 {% include links.html %}
