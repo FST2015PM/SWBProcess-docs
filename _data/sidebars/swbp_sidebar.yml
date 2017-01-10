@@ -120,16 +120,20 @@ entries:
         url: /swbp_processmanagement_workflow.html
         output: web, pdf
 
-      - title: Reglas de negocio
-        url: /swbp_processmanagement_rules.html
-        output: web, pdf
-
-      - title: Procesos de negocio
+      - title: Procesos y grupos de proceso
         url: /swbp_processmanagement_processes.html
         output: web, pdf
 
       - title: Modelado de procesos
         url: /swbp_processmanagement_processmodeling.html
+        output: web, pdf
+
+      - title: Documentación de procesos de negocio
+        url: /swbp_processmanagement_docs.html
+        output: web, pdf
+
+      - title: Configuración de las herramientas de procesos
+        url: /swbp_processmanagement_tools.html
         output: web, pdf
 
       - title: Configuración de las propiedades de ejecución

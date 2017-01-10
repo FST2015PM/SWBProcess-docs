@@ -26,12 +26,35 @@ De acuerdo con la definición de Wetzstein et. al.[^wetzstein1], el ciclo de vid
 
 
 ## Flujo de trabajo en SWBProcess
-* Modelado de datos
-* Configuración de herramientas
-* Modelado del proceso
-* Configuración del proceso
-* Documentación del proceso
-* Ejecución del proceso
-* Monitoreo del proceso
+De manera concreta, el flujo de trabajo en SWBProcess para cubrir el ciclo completo de BPM se describe a continuación. Para cada una de las actividades se especifica si ésta debe ser ejecutada en el sitio de procesos o en el sitio de administración.
+
+{{site.data.alerts.callout_success}}
+Dependiendo de los objetivos de los analistas del negocio, las actividades en el flujo de trabajo planteado pueden ser distintas, cambiar de orden o ser omitidas parcialmente.
+{{site.data.alerts.end}}
+
+### Modelado de datos
+Un activo importante en los procesos de negocio es la información que se genera en la ejecución de los mismos, presentada y capturada por los usuarios ejecutores mediante interfaces o formularios específicos. Para la gestión de dicha información, SWBProcess hace uso de definiciones de datos en modelos ontológicos.
+
+La realización de estos modelos ontológicos y su relación con los sitios Web de procesos queda fuera del alcance de la presente documentación, sin embargo, puede consultar más información en el sitio de [SemanticWebBuilder](http://www.semanticwebbuilder.org.mx/BMV/Espanol).
+
+### Modelado del proceso
+Un modelo de proceso generado bajo una notación estándar ayuda a transmitir la intención de los modelos reduciendo la ambigüedad. También ayuda a lograr una interoperabilidad entre distintas herramientas en torno a la gestión de procesos. Usted podrá definir las actividades realizadas en un modelo de procesos mediante SWBProcess Modeler en el sitio de administración, utilizando la semántica de la notación en el estándar BPMN 2.0. En esta actividad se definirán los participantes en el flujo, las decisiones y bifurcaciones, así como los eventos que ocurrirán durante la ejecución de los modelos.
+
+### Documentación del proceso
+Para ayudar en el descubrimiento, establecimiento y mejora continua de los procesos, debe generarse la documentación asociada a los mismos. Mediante SWBProcess Documenter en el sitio de procesos, usted podrá definir y capturar la documentación de los procesos para generar un manual en línea que describa, por ejemplo, los objetivos, reglas, formatos y métricas utilizadas. Ésta documentación en línea podrá ayudarle para integrar un manual de procedimientos en la institución, en procesos de auditoría o certificación de calidad.
+
+### Configuración de herramientas
+En los procesos existen elementos que pueden ser reutilizados por más de un modelo ejecutable, por ejemplo, conexiones a bases de datos, reglas de negocio, plantillas de archivos, certificados, etcétera. Estos elementos deben configurarse de manera previa a la configuración de los modelos de procesos para asegurar su existencia en el momento necesario y hacer más eficiente el flujo de trabajo. Usted podrá administrar el catálogo de herramientas de procesos en el sitio de administración.
+
+### Configuración del proceso
+Una vez que un modelo de procesos ha sido revisado y aprobado por los analistas para proseguir con su implementación, éste debe ser configurado para su ejecución y marcado como un proceso ejecutable. La configuración consiste en establecer los parámetros necesarios, relacionar los objetos de datos correspondientes y establecer los permisos y notificaciones adecuadas para que el flujo de procesos sea funcional como sistema de información. Usted podrá realizar esta configuración en el sitio de administración de SWBProcess.
+
+### Ejecución del proceso
+Mediante el componente de bandeja de tareas en el sitio Web de procesos, los usuarios ejecutores podrán crear instancias de los procesos marcados como ejecutables y atender las actividades correspondientes de acuerdo con la definición en el modelo de procesos y la configuración establecida. El motor de SWBProcess se encarga de despachar las actividades a los usuarios con los permisos adecuados, gestionar la información asociada en las interfaces de captura y generar la información de bitácora para cada ejecución.
+
+### Monitoreo del proceso
+Después de la ejecución de varias instancias de procesos, usted podrá visualizar la información básica sobre su desempeño mediante SWBProcess Monitor. Esta información puede ayudar a los especialistas en procesos para la realización del análisis y propuestas de mejora pertinentes.
+
+<hr>
 
 {% include links.html %}
