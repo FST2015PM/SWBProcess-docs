@@ -7,10 +7,25 @@ folder: swbp
 ---
 
 ## Grupos de procesos
+SemanticWebBuilder Process permite organizar los procesos de negocio en grupos y subgrupos, de manera que la navegación y búsqueda de los procesos sea más sencilla, obedeciendo a una estructura jerárquica. Los grupos y subgrupos en SWBProcess se muestran en el árbol de estructura del sitio, bajo el nodo denominado _Procesos_ {% include inline_image.html file="screenshots/icon_processgroup.png" %}, como se muestra en la siguiente figura.
+
+{%include image.html class="centered x-small shadow adjusted" file="screenshots/swbp_processgroups.png" alt="Estructura de grupos de procesos"%}
+
+{{site.data.alerts.callout_success}}
+Es importante mencionar que la navegación en la documentación del sitio de procesos obedece a esta estructura.
+{{site.data.alerts.end}}
 
 ### Creación de grupos de procesos
+Usted podrá crear un grupo de procesos de primer nivel haciendo click con el botón derecho del ratón en el nodo _Procesos_ {% include inline_image.html file="screenshots/icon_processgroup.png" %} y seleccionando la opción **Agregar grupo de procesos**.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_processgroups_addoption.png" alt="Estructura de grupos de procesos"%}
 
 ### Edición de las propiedades generales de un grupo de procesos
+
+### Reorganización de procesos
+
+### Eliminación de un grupo de procesos
+
 
 ### Creación de un sitio vacío
 {{site.data.alerts.callout_warning}}

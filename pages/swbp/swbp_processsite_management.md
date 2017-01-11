@@ -17,7 +17,7 @@ Un sitio Web de procesos vacío contiene los elementos generales para la gestió
 
 Para crear un sitio de procesos vacío, seleccione en la barra de menús la opción **Nuevo** en el menú **Archivo > Crear Sitios Web**, como se muestra en la siguiente figura.
 
-{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newsite_menu.png" alt="Opción para crear sitio"%}
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newsite_menu.gif" alt="Opción para crear sitio"%}
 
 Se presentará el diálogo de creación de sitios como se muestra en la siguiente figura.
 
@@ -43,7 +43,7 @@ La opción recomendada para la creación de sitios de procesos es mediante el us
 
 Para crear un sitio de procesos desde la plantilla predeterminada, seleccione en la barra de menús la opción **Predeterminado** en el menú **Archivo > Crear Sitios Web**, como se muestra en la siguiente figura.
 
-{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_templatesite_menu.png" alt="Opción para crear sitio plantilla"%}
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_templatesite_menu.gif" alt="Opción para crear sitio plantilla"%}
 
 En la zona de trabajo se mostrará la pestaña _Predeterminado_ con la lista de plantillas disponibles para la creación de sitios.
 
@@ -141,7 +141,7 @@ A continuación se describe el procedimiento para activar o desactivar un sitio 
 
 También puede realizar la acción desde el árbol de estructura, haciendo click con el botón derecho sobre el nombre del sitio y seleccionando la opción **Activar** o **Desactivar** según corresponda, como se muestra en la siguiente figura.
 
-{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_activemenu.png" alt="Opción de activación del sitio"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_activemenu.gif" alt="Opción de activación del sitio"%}
 
 En cualquier caso, el icono del sitio cambiará de acuerdo con la configuración. Éste será azul {% include inline_image.html file="screenshots/icon_siteb.gif" %} cuando el sitio esté activo y rojo {% include inline_image.html file="screenshots/icon_sitein.png" %} cuando el sitio esté inactivo.
 
@@ -179,7 +179,7 @@ Podrá eliminar un sitio de procesos presionando el botón **Eliminar** en el fo
 
 También puede realizar la acción desde el árbol de estructura, haciendo click con el botón derecho sobre el nombre del sitio y seleccionando la opción **Eliminar**, como se muestra en la siguiente figura.
 
-{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_removeoption.png" alt="Opción de eliminación del sitio"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_site_removeoption.gif" alt="Opción de eliminación del sitio"%}
 
 En cualquier caso, se solicitará confirmación de la acción. Si acepta, el sitio será eliminado y desaparecerá del acordeón de estructura de sitios.
 

@@ -1,16 +1,18 @@
 ---
 title: Flujo de trabajo
 tags: [getting_started]
-summary: "Introducción a la gestión de procesos de negocio con SWBProcess"
+summary: "Esta sección presenta la descripción de BPM y su relación con el flujo de trabajo en SWBProcess"
 sidebar: swbp_sidebar
 permalink: swbp_processmanagement_workflow.html
 folder: swbp
 ---
 
 ## Business Process Management
-SemanticWebBuilder process fue diseñado para ayudar a los distintos actores involucrados en la gestión de los procesos de negocio de una organización. Con este objetivo, los componentes integrados en SWBProcess permiten cubrir por completo el ciclo de vida planteado por la metodología Business Process Management (BPM por sus siglas en inglés).
+SemanticWebBuilder process fue diseñado para ayudar a los distintos actores involucrados en la gestión de los procesos de negocio de una organización. Con este objetivo, los componentes integrados en SWBProcess permiten cubrir por completo el ciclo de vida planteado por la metodología Business Process Management (BPM por sus siglas en inglés). De acuerdo con la definición de Wetzstein et. al.[^wetzstein1], el ciclo de vida de los procesos en BPMN contiene cuatro etapas: Modelado, implementación, ejecución y análisis. Las etapas se esquematizan en la figura siguiente.
 
-De acuerdo con la definición de Wetzstein et. al.[^wetzstein1], el ciclo de vida de los procesos en BPMN contiene cuatro etapas: Modelado, implementación, ejecución y análisis. La descripción de cada etapa y la manera en que SWBProcess contribuye a su realización se describe en los siguientes párrafos conforme a lo establecido en Pacheco et. al.[^Pacheco1].
+{% include image.html class="centered shadow adjusted" file="BPM_flow.svg" alt="BPM" %}
+
+La descripción de cada etapa y la manera en que SWBProcess contribuye a su realización se describe en los siguientes párrafos conforme a lo establecido en Pacheco et. al.[^Pacheco1].
 
 * **Modelado:** en esta etapa los analistas del negocio crean un modelo de procesos de negocio con la ayuda de herramientas específicas, estableciendo el orden de las tareas en el modelo. Esta fase es cubierta por _SWBP Modeler_, que soporta el diseño de diagramas de procesos mediante el estándar BPMN 2.0 y los transforma en modelos semánticos de procesos. Adicionalmente, _SWBProcess Documenter_ permite capturar la información de negocio asociada a los procesos y generar un manual en línea.
 

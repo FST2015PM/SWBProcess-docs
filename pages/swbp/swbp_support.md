@@ -1,7 +1,7 @@
 ---
 title: Soporte técnico
 tags: [getting_started, troubleshooting, support]
-summary: "Soporte técnico al producto"
+summary: "Esta sección describe las opciones de soporte técnico al producto y los servicios asociados"
 sidebar: swbp_sidebar
 permalink: swbp_support.html
 folder: swbp
