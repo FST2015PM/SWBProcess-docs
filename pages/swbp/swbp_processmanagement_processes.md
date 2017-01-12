@@ -1,6 +1,7 @@
 ---
 title: Procesos y grupos de procesos
 tags: [getting_started]
+summary: "Descripción de las herramientas y acciones asociadas con la gestión de procesos de negocio"
 sidebar: swbp_sidebar
 permalink: swbp_processmanagement_processes.html
 folder: swbp
