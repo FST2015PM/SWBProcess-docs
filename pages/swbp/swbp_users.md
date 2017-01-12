@@ -72,7 +72,7 @@ Posteriormente, deberá hacer click con el botón derecho en el nodo _Roles_ {% 
 
 Se presentará el diálogo _Agregar Rol_ como se muestra en la siguiente figura.
 
-{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newrole_dialog.png" alt="Diálogo crear rol"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_newrole_dialog.png" alt="Diálogo crear rol"%}
 
 Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguiente descripción de campos.
 
@@ -119,7 +119,7 @@ Posteriormente, deberá hacer click con el botón derecho en el nodo _Grupos de 
 
 Se presentará el diálogo _Agregar Grupo de Usuarios_ como se muestra en la siguiente figura.
 
-{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newgroup_dialog.png" alt="Diálogo crear grupo"%}
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_newgroup_dialog.png" alt="Diálogo crear grupo"%}
 
 Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguiente descripción de campos.
 

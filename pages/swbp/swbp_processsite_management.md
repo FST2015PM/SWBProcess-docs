@@ -67,7 +67,7 @@ Tras aceptar, se mostrará información del progreso. El sitio será instalado c
 
 Finalmente, se mostrará un mensaje de confirmación de la acción y en el acordeón de estructura de sitios se presentará el sitio recién creado.
 
-{% include image.html class="centered small shadow adjusted" file="screenshots/swbp_process_created.png" alt="Sitio creado" %}
+{% include image.html class="centered x-small shadow adjusted" file="screenshots/swbp_process_created.png" alt="Sitio creado" %}
 
 ## Estructura de un sitio Web de procesos
 {{site.data.alerts.callout_success}}
