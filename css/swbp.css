@@ -118,6 +118,14 @@ h3,h4 {
     text-decoration: none;
 }
 
+table.bpmnsymbol-table td:first-child {
+    width: 80px;
+}
+
+table.bpmnsymbol-table td:nth-child(2) {
+    width: 100px;
+}
+
 table {
   max-width: 100%;
   border-collapse: collapse;
@@ -140,6 +148,10 @@ table > thead > tr > th {
 
 table > tbody > tr > td {
   font-size: 14px;
+}
+
+table > tbody > tr > td img.bpmnsymbol {
+  width:60px;
 }
 
 #disqus_thread {
