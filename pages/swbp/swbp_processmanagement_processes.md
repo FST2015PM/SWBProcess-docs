@@ -20,7 +20,7 @@ Usted podrá crear un grupo de procesos de primer nivel haciendo click con el bo
 
 {% include image.html class="centered small shadow adjusted" file="screenshots/swbp_processgroups_addoption.gif" alt="Opción Agregar grupo de procesos" %}
 
-Se mostrará el diálogo _Agregar grupo de proceos_, donde deberá capturar un título para el nuevo grupo, como se muestra en la siguiente figura.
+Se mostrará el diálogo _Agregar grupo de procesos_, donde deberá capturar un título para el nuevo grupo, como se muestra en la siguiente figura.
 
 {% include image.html class="centered small shadow adjusted" file="screenshots/swbp_processgroups_adddialog.png" alt="Diálogo Agregar grupo de procesos" %}
 
@@ -32,7 +32,7 @@ Finalmente, deberá presionar el botón **Guardar**. Tenga en cuenta que los tí
 Los procesos contenidos en grupos de procesos inactivos no son mostrados en la navegación de la documentación en el sitio Web de procesos. Tampoco son mostrados en los componentes para creación de instancias de procesos.
 {{site.data.alerts.end}}
 
-Adicionalmente, en la zona de trabajo se mostrarán las pestañas de configuración del grupo de procesos con la pestaña _Información_ seleccionada por defecto. en esta pestaña podrá modificar las propiedades del grupo.
+Adicionalmente, en la zona de trabajo se mostrarán las pestañas de configuración del grupo de procesos con la pestaña _Información_ seleccionada por defecto. En esta pestaña podrá modificar las propiedades del grupo.
 
 {% include image.html class="centered shadow adjusted" file="screenshots/swbp_processgroup_tabs.png" alt="Pestañas de configuración del grupo de procesos" %}
 
@@ -70,5 +70,77 @@ También puede realizar la acción desde el árbol de estructura, haciendo click
 En cualquier caso, se solicitará confirmación de la acción. Si acepta, el grupo será eliminado y desaparecerá del acordeón de estructura de sitios.
 
 {%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_processgroup_confirmdelete.png" alt="Confirmación de eliminación del grupo"%}
+
+## Procesos de negocio
+De acuerdo con la Wikipedia[^wikipedia1], un proceso de negocio es una colección de actividades estructuradas y relacionadas que derivan en la consecución de un producto o servicio específico para un cliente o clientes particulares. Los procesos de negocio en SWBProcess son entidades protagonistas pues a éstos se asocia el modelo, la documentación, las propiedades de ejecución y los permisos de acceso necesarios para una implementación.
+
+[^wikipedia1]: Business Process https://en.wikipedia.org/wiki/Business_process.
+
+### Creación de procesos
+Usted podrá crear un proceso haciendo click con el botón derecho del ratón en un grupo de procesos particular y seleccionando la opción **Agregar proceso**.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_process_addoption.gif" alt="Opción Agregar proceso" %}
+
+Se mostrará el diálogo _Agregar proceso_ como se muestra en la siguiente figura.
+
+{% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newprocess_dialog.png" alt="Diálogo Agregar proceso" %}
+
+Deberá capturar en el diálogo los datos del formulario de acuerdo a la siguiente descripción de campos.
+
+|Campo|Descripción|
+|---|---|
+|Título|Nombre visible del proceso en toda la administración, este nombre es usado como campo de búsqueda.|
+|Identificador|Identificador único del proceso, usado en la URL de navegación. De existir el valor capturado se marcará el campo como erróneo.|
+
+Finalmente, deberá presionar el botón **Guardar**. Se mostrará un mensaje de confirmación de la acción y en el acordeón de estructura se presentará el proceso recién creado en modo inactivo.
+
+{% include image.html class="centered x-small shadow adjusted" file="screenshots/swbp_process_processadded.png" alt="Nuevo proceso creado" %}
+
+{{site.data.alerts.callout_warning}}
+Los procesos inactivos no son mostrados en la navegación de la documentación en el sitio Web de procesos. Tampoco son mostrados en los componentes para creación de instancias de procesos.
+{{site.data.alerts.end}}
+
+Adicionalmente, en la zona de trabajo se mostrarán las pestañas de configuración del proceso con la pestaña _Información_ seleccionada por defecto.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_process_tabs.png" alt="Pestañas de configuración del proceso" %}
+
+### Activación/desactivación de procesos
+Podrá activar o desactivar un proceso marcando o desmarcando la casilla del campo **Activo** en el formulario de su pestaña de información.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_process_active.png" alt="Casilla de activación del proceso"%}
+
+También puede realizar la acción desde el árbol de estructura, haciendo click con el botón derecho sobre el nombre del proceso y seleccionando la opción **Activar** o **Desactivar** según corresponda, como se muestra en la siguiente figura.
+
+{%include image.html class="centered small shadow adjusted" file="screenshots/swbp_process_activemenu.gif" alt="Opción de activación del proceso"%}
+
+En cualquier caso, el icono del proceso cambiará de acuerdo con la configuración. Éste será azul {% include inline_image.html file="screenshots/icon_process_active.png" %} cuando el proceso esté activo y rojo {% include inline_image.html file="screenshots/icon_process_inactive.png" %} cuando el proceso esté inactivo.
+
+### Reorganización de procesos
+Puede reorganizar los procesos arrastrando sus nodos en el árbol hacia otros grupos como se muestra en la siguiente figura.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_process_move.gif" alt="Reorganización de procesos"%}
+
+Se solicitará confirmación de la acción. Si acepta, el proceso se moverá como hijo del grupo al cual lo arrastró.
+
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_process_moveconfirm.png" alt="Confirmación de movimiento de procesos"%}
+
+### Eliminación de un proceso
+Podrá eliminar un proceso presionando el botón **Eliminar** en el formulario de la pestaña de información del mismo.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_process_delete.png" alt="Botón de eliminación"%}
+
+También puede realizar la acción desde el árbol de estructura, haciendo click con el botón derecho sobre el nombre del proceso y seleccionando la opción **Eliminar**, como se muestra en la siguiente figura.
+
+{%include image.html class="centered shadow adjusted" file="screenshots/swbp_process_removeoption.gif" alt="Opción de eliminación del proceso"%}
+
+En cualquier caso, se solicitará confirmación de la acción. Si acepta, el proceso será eliminado y desaparecerá del acordeón de estructura de sitios.
+
+{%include image.html class="centered medium shadow adjusted" file="screenshots/swbp_process_confirmdelete.png" alt="Confirmación de eliminación del proceso"%}
+
+{{site.data.alerts.callout_warning}}
+Al eliminar un proceso, éste será trasladado a la papelera del sitio. Sin embargo, si lo elimina de la papelera eliminará no sólo la información asociada al proceso, sino también la documentación y los archivos que el proceso generó en el disco duro.
+{{site.data.alerts.end}}
+
+<hr>
 
 {% include links.html %}
