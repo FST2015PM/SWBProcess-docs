@@ -113,7 +113,69 @@ En cualquier caso, se solicitará confirmación de la acción. Si acepta, la pla
 
 {% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_notificationtemplate_deleteconfirm.png" alt="Confirmación de eliminación de la plantilla" %}
 
+
+
+
+
+
 ## Plantillas de archivos
+El motor de SWBProcess permite el llenado de documentos MSWord con información de las variables del proceso como resultado de actividades de servicio. Para este fin, SWBProcess hace uso de plantillas de archivos, que definen campos de mezcla de correo para insertar la información proveniente del proceso.
+
+### Creación de plantillas de archivos
+{{site.data.alerts.callout_success}}
+Para crear una plantilla de archivos deberá contar previamente con un archivo MSWord con campos de mezcla de correo referenciando variables del proceso. Puede consultar la documentación asociada con la inserción de campos de mezcla de correo en el <a href="https://answers.microsoft.com/en-us/msoffice/forum/msoffice_word-mso_other/mail-merge-in-word/7636c3c6-e5bf-403d-a2f7-31c2867828dd">foro de ayuda</a> de Microsoft. También puede consultar la información sobre el <a href="http://localhost:4000/swbp_processmanagement_processconfig.html#variables-de-procesos-en-la-configuracin-de-los-elementos">uso de variables de procesos</a> en la configuración de SWBProcess.
+{{site.data.alerts.end}}
+
+Para crear una nueva plantilla de archivos deberá hacer click con el botón derecho en el nodo _Plantillas de Archivos_ {% include inline_image.html file="screenshots/icon_filetemplates.png" class="icon" %} y seleccionar la opción **Agregar Plantilla de Archivo de Proceso** como se muestra en la siguiente figura.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_addfiletemplate_menu.gif" alt="Opción para agregar plantilla de archivos" %}
+
+Se presentará el diálogo _Agregar Plantilla de Archivo de Proceso_, deberá capturar un título para la plantilla y presionar el botón **Guardar**.
+
+{% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newfiletemplate_dialog.png" alt="Diálogo crear plantilla de archivo" %}
+
+Finalmente, se mostrará en la zona de trabajo la nueva plantilla de archivo con la pestaña _Información_ seleccionada por defecto.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_filetemplate_tabs.png" alt="Pestañas de la plantilla" %}
+
+En el formulario presentado, deberá presionar el botón **Select File** del campo **Archivo**.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_filetemplate_filebutton.png" alt="Botón para seleccionar archivo" %}
+
+Se mostrará una pantalla de selección donde deberá ubicar el archivo MSWord deseado.
+
+{% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_filetemplate_selectdialog.png" alt="Diálogo seleccionar archivo" %}
+
+Una vez seleccionado el archivo, se mostrará un mensaje de confirmación de la carga y podrá presionar el botón **Guardar**.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_filetemplate_confirmmesage.png" alt="Confirmación de carga de archivo" %}
+
+Se mostrará el archivo en el campo **Archivo** del formulario.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_filetemplate_fileloaded.png" alt="Información del archivo asociado" %}
+
+### Edición de las propiedades de una plantilla de archivos
+Para modificar las propiedades de una plantilla de archivos deberá acceder a la pestaña de información de la misma. Se presentará un formulario donde podrá modificar la información de acuerdo con la siguiente tabla.
+
+|Propiedad|Descripción|
+|---|---|
+|Título|Nombre visible de la plantilla en toda la administración, este nombre es usado como campo de búsqueda.|
+|Descripción|Descripción del propósito de la plantilla.|
+|Archivo|Muestra una ventana de selección para ubicar un archivo MSWord.|
+|Eliminar|Si marca esta casilla, el archivo asociado a la plantilla será eliminado.|
+
+### Eliminación de plantillas de archivos
+Podrá eliminar una plantilla de archivos presionando el botón **Eliminar** en el formulario de la pestaña de información de la misma.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_filetemplate_removebutton.png" alt="Botón de eliminación" %}
+
+También puede realizar la acción desde el árbol de estructura del sitio, haciendo click con el botón derecho sobre el nombre de la plantilla y seleccionando la opción **Eliminar**, como se muestra en la siguiente figura.
+
+{% include image.html class="centered small shadow adjusted" file="screenshots/swbp_filetemplate_removeoption.gif" alt="Opción de eliminación de la plantilla" %}
+
+En cualquier caso, se solicitará confirmación de la acción. Si acepta, la plantilla será eliminada y desaparecerá del árbol del sitio.
+
+{% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_filetemplate_deleteconfirm.png" alt="Confirmación de eliminación de la plantilla" %}
 
 ## Intervalos de ejecución
 
