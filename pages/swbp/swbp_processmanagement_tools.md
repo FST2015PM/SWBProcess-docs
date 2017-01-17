@@ -113,11 +113,6 @@ En cualquier caso, se solicitará confirmación de la acción. Si acepta, la pla
 
 {% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_notificationtemplate_deleteconfirm.png" alt="Confirmación de eliminación de la plantilla" %}
 
-
-
-
-
-
 ## Plantillas de archivos
 El motor de SWBProcess permite el llenado de documentos MSWord con información de las variables del proceso como resultado de actividades de servicio. Para este fin, SWBProcess hace uso de plantillas de archivos, que definen campos de mezcla de correo para insertar la información proveniente del proceso.
 
@@ -178,6 +173,63 @@ En cualquier caso, se solicitará confirmación de la acción. Si acepta, la pla
 {% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_filetemplate_deleteconfirm.png" alt="Confirmación de eliminación de la plantilla" %}
 
 ## Intervalos de ejecución
+Los intervalos de ejecución permiten definir condiciones asociadas a eventos temporales, por ejemplo, una calendarización para una fecha y hora determinada o un evento recurrente cada cierto periodo de tiempo. El motor de SWBProcess utiliza los intervalos de ejecución para configurar los eventos temporizadores en el flujo de un proceso.
+
+### Creación de intervalos de ejecución
+Para crear un intervalo de ejecución deberá hacer click con el botón derecho en el nodo _Intervalos de ejecución_ {% include inline_image.html file="screenshots/icon_interval.png" class="icon" %} y seleccionar la opción **Agregar Intervalo de Ejecución** como se muestra en la siguiente figura.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_addinterval_menu.gif" alt="Opción para agregar intervalo de ejecución" %}
+
+Se presentará el diálogo _Agregar Intervalo de Ejecución_, deberá capturar un título para el intervalo y presionar el botón **Guardar**.
+
+{% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_newninterval_dialog.png" alt="Diálogo crear intervalo de ejecución" %}
+
+Finalmente, se mostrará en la zona de trabajo el nuevo intervalo con la pestaña _Información_ seleccionada por defecto.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_interval_tabs.png" alt="Pestañas del intervalo de ejecución" %}
+
+### Edición de las propiedades generales de un intervalo de ejecución
+Para modificar las propiedades de un intervalo de ejecución deberá acceder a la pestaña de información del mismo. Se presentará un formulario donde podrá modificar la información de acuerdo con la siguiente tabla.
+
+|Propiedad|Descripción|
+|---|---|
+|Título|Nombre visible del intervalo en toda la administración, este nombre es usado como campo de búsqueda.|
+|Descripción|Descripción del propósito del intervalo.|
+|Activo|Permite activar/desactivar el elemento.|
+
+### Configuración de un intervalo de ejecución
+Para configurar un intervalo, deberá acceder a su pestaña _Editar Periodo_, como se muestra en la siguiente figura. Si desea configurar el intervalo como un evento calendarizado, deberá presionar el botón **Temporizador** (seleccionado por defecto). Se mostrará un formulario donde podrá definir la fecha y hora de inicio y fin o un tiempo de espera en minutos.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_interval_timer.png" alt="Intervalo como temporizador" %}
+
+{{site.data.alerts.callout_success}}
+Al configurar un intervalo como temporizador, las opciones <i>Termina</i> y <i>No termina</i> de la sección <i>Inicio y fin</i> se desactivan. Si selecciona la casilla <i>Tiempo de espera</i>, las opciones de la sección <i>Inicio y fin</i> se desactivan.
+{{site.data.alerts.end}}
+
+Si desea configurar el intervalo como un evento recurrente, deberá presionar el botón **Intervalo**. Se mostrará un formulario donde podrá definir con detalle la información del evento.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_interval_interval.png" alt="Intervalo como temporizador" %}
+
+
+
+
+### Eliminación de intervalos de ejecución
+Podrá eliminar un intervalo de ejecución presionando el botón **Eliminar** en el formulario de la pestaña de información del mismo.
+
+{% include image.html class="centered shadow adjusted" file="screenshots/swbp_interval_removebutton.png" alt="Botón de eliminación" %}
+
+También puede realizar la acción desde el árbol de estructura del sitio, haciendo click con el botón derecho sobre el nombre del intervalo y seleccionando la opción **Eliminar**, como se muestra en la siguiente figura.
+
+{% include image.html class="centered small shadow adjusted" file="screenshots/swbp_interval_removeoption.gif" alt="Opción de eliminación del intervalo" %}
+
+En cualquier caso, se solicitará confirmación de la acción. Si acepta, el intervalo será eliminado y desaparecerá del árbol del sitio.
+
+{% include image.html class="centered medium shadow adjusted" file="screenshots/swbp_interval_deleteconfirm.png" alt="Confirmación de eliminación del intervalo" %}
+
+{{site.data.alerts.callout_warning}}
+Al eliminar un intervalo de ejecución se eliminan las asociaciones del mismo con los eventos temporizadores de los procesos, por lo que la configuración de los flujos se verá afectada.
+{{site.data.alerts.end}}
+
 
 ## Reglas de negocio
 
