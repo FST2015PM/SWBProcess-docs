@@ -8,7 +8,7 @@ folder: swbp
 ---
 
 {{site.data.alerts.callout_success}}
-Para instrucciones específicas de instalación de SemanticWebBuilder Process, puede consultar los manuales correspondientes en la <a href="http://semanticwebbuilder.org.mx/swb/swb/Manuales_Portal_Esoanol">página de documentación</a> de SemanticWebBuilder.
+Si usted tiene <a href="https://www.docker.com/">Docker</a> o <a href="https://www.vagrantup.com/">Vagrant</a> instalados, podrá utilizar el aprovisionamiento automático conforme a lo indicado en el repositorio <a href="https://github.com/haxdai/SWBProcess-providers">SWBProcess-providers</a>.
 {{site.data.alerts.end}}
 
 ## Instalación del Java Development Kit
@@ -219,5 +219,9 @@ sh startup.sh
 Después de que el servidor de aplicaciones inicie, podrá acceder a la administración de SemanticWebBuilder Process en un navegador, utilizando la URL [http://localhost:8080/swbadmin](http://localhost:8080/swbadmin). Se presentará la pantalla de bienvenida a SWBProcess.
 
 {%include image.html class="centered" file="screenshots/swbp_admlogin.png" alt="Pantalla de inicio de sesión"%}
+
+{{site.data.alerts.callout_success}}
+Para instrucciones específicas de instalación de SemanticWebBuilder Process, puede consultar los manuales correspondientes en la <a href="http://semanticwebbuilder.org.mx/swb/swb/Manuales_Portal_Esoanol">página de documentación</a> de SemanticWebBuilder.
+{{site.data.alerts.end}}
 
 {% include links.html %}

@@ -2,7 +2,7 @@
 ## Quick start
 
 ````sh
-bundle exec jekyll start
+bundle exec jekyll serve
 ````
 
 ## Generar documentación en PDF

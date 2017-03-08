@@ -116,24 +116,28 @@ entries:
     output: web, pdf
     folderitems:
 
-      - title: Herramientas de procesos
-        url: /swbp_create_process_site.html
+      - title: Flujo de trabajo
+        url: /swbp_processmanagement_workflow.html
         output: web, pdf
 
-      - title: Reglas de negocio
-        url: /swbp_remove_process_site.html
-        output: web, pdf
-
-      - title: Procesos de negocio
-        url: /swbp_remove_process_site.html
+      - title: Procesos y grupos de proceso
+        url: /swbp_processmanagement_processes.html
         output: web, pdf
 
       - title: Modelado de procesos
-        url: /swbp_remove_process_site.html
+        url: /swbp_processmanagement_processmodeling.html
+        output: web, pdf
+
+      - title: Documentación de procesos de negocio
+        url: /swbp_processmanagement_docs.html
+        output: web, pdf
+
+      - title: Configuración de las herramientas de procesos
+        url: /swbp_processmanagement_tools.html
         output: web, pdf
 
       - title: Configuración de las propiedades de ejecución
-        url: /swbp_remove_process_site.html
+        url: /swbp_processmanagement_processconfig.html
         output: web, pdf
 
   - title: Operación de procesos de negocio
@@ -164,6 +168,10 @@ entries:
     output: web, pdf
     folderitems:
 
+      - title: Referencia rápida de la notación BPMN 2.0
+        url: /swbp_bpmn2_quickreference.html
+        output: web, pdf
+
       - title: Información para desarrolladores
-        url: /swbp_create_process_site.html
+        url: /swbp_developers.html
         output: web, pdf
