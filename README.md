@@ -1,4 +1,4 @@
-## Sitio de documentación de la plataforma de integracin de datos
+## Sitio de documentación de la plataforma de integración de datos
 ## Quick start
 
 ````sh
