@@ -1,9 +1,9 @@
 ---
-title: "Updates pages"
+title: "Updates"
 tagName: updates
 search: exclude
 permalink: tag_updates.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

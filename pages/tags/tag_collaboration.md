@@ -1,9 +1,9 @@
 ---
-title: "Collaboration pages"
+title: "Colaboración"
 tagName: collaboration
 search: exclude
 permalink: tag_collaboration.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

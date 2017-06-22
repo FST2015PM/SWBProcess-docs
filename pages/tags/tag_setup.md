@@ -1,9 +1,9 @@
 ---
-title: "Setup pages"
+title: "Instalación"
 tagName: setup
 search: exclude
 permalink: tag_setup.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

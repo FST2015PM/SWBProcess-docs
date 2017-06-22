@@ -3,7 +3,7 @@ url: "http://127.0.0.1:4010"
 baseurl: "/plataforma-pdf"
 port: 4010
 output: pdf
-product: plataforma
+product: Plataforma
 print_title: Plataforma
 print_subtitle: version 4.0
 output: pdf

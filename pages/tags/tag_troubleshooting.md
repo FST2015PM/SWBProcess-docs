@@ -1,9 +1,9 @@
 ---
-title: "Troubleshooting pages"
+title: "Troubleshooting"
 tagName: troubleshooting
 search: exclude
 permalink: tag_troubleshooting.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

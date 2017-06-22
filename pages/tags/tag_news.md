@@ -1,9 +1,9 @@
 ---
-title: "News"
+title: "Noticias"
 tagName: news
 search: exclude
 permalink: tag_news.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

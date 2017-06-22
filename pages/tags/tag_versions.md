@@ -1,9 +1,9 @@
 ---
-title: "Versions pages"
+title: "Versiones"
 tagName: versions
 search: exclude
 permalink: tag_versions.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

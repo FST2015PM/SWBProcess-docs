@@ -1,9 +1,9 @@
 ---
-title: "Content types pages"
+title: "Contenidos"
 tagName: content_types
 search: exclude
 permalink: tag_content_types.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

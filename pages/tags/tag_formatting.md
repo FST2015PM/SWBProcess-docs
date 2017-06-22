@@ -1,9 +1,9 @@
 ---
-title: "Formatting pages"
+title: "Formato"
 tagName: formatting
 search: exclude
 permalink: tag_formatting.html
-sidebar: swbp_sidebar
+sidebar: plataforma_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

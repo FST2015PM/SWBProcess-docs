@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: SWBProcess
-  version: 4.5.11.2
+  product: Plataforma
+  version: 2.0-alpha
   folders:
 
   - title:
@@ -28,52 +28,20 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Soporte técnico
-      url: /swbp_support.html
-      output: web, pdf
-
   - title: Notas de la versión
     output: web, pdf
     folderitems:
 
-    - title: 4.5.11.2
-      url: /swbp_release_notes_45112.html
+    - title: 2.0-alpha
+      url: /plataforma_release_notes_20alpha.html
       output: web, pdf
 
-    - title: 4.5.11.1
-      url: /swbp_release_notes_45111.html
+    - title: 1.1-alpha
+      url: /plataforma_release_notes_11alpha.html
       output: web, pdf
 
-    - title: 4.5.10.1
-      url: /swbp_release_notes_45101.html
-      output: web, pdf
-
-    - title: 4.5.10.0
-      url: /swbp_release_notes_45100.html
-      output: web, pdf
-
-    - title: 4.5.6.0
-      url: /swbp_release_notes_4560.html
-      output: web, pdf
-
-    - title: 4.5.0.0
-      url: /swbp_release_notes_4500.html
-      output: web, pdf
-
-    - title: 4.2.5.5
-      url: /swbp_release_notes_4255.html
-      output: web, pdf
-
-    - title: 4.2.2.0
-      url: /swbp_release_notes_4220.html
-      output: web, pdf
-
-    - title: 4.2.1.0
-      url: /swbp_release_notes_4210.html
-      output: web, pdf
-
-    - title: 4.2.0.5
-      url: /swbp_release_notes_4205.html
+    - title: 1.0-alpha
+      url: /plataforma_release_notes_10alpha.html
       output: web, pdf
 
   - title: Instalación
@@ -81,97 +49,69 @@ entries:
     folderitems:
 
     - title: Prerequisitos
-      url: /swbp_prerequisites.html
+      url: /plataforma_prerequisites.html
       output: web, pdf
 
     - title: Instalación
-      url: /swbp_install.html
+      url: /plataforma_install.html
       output: web, pdf
 
     - title: Configuración inicial
-      url: /swbp_firstsetup.html
+      url: /plataforma_firstsetup.html
       output: web, pdf
 
   - title: Administración general
     output: web, pdf
     folderitems:
 
-    - title: Organización de la aplicación
-      url: /swbp_app_components.html
+    - title: Organización de la plataforma
+      url: /plataforma_app_components.html
       output: web, pdf
 
-    - title: Elementos de la interfaz del sitio de administración
-      url: /swbp_admin_ui.html
+    - title: Elementos de la interfaz de gestión
+      url: /plataforma_admin_ui.html
       output: web, pdf
 
-    - title: Gestión de sitios de procesos
-      url: /swbp_processsite_management.html
+    - title: Gestión de usuarios y roles
+      url: /plataforma_users.html
       output: web, pdf
 
-    - title: Gestión de usuarios y permisos
-      url: /swbp_users.html
+    - title: Gestión de conjuntos de datos
+      url: /plataforma_dataset_management.html
       output: web, pdf
 
-  - title: Administración de procesos de negocio
+    - title: Gestión de capas geográficas
+      url: /plataforma_geolayer_management.html
+      output: web, pdf
+
+    - title: Gestión de extractores
+      url: /plataforma_extractor_management.html
+      output: web, pdf
+
+    - title: Gestión de puntos de acceso
+      url: /plataforma_endpoint_management.html
+      output: web, pdf
+
+    - title: Gestión de llaves para aplicaciones
+      url: /plataforma_apikey_management.html
+      output: web, pdf
+
+  - title: Gestión de destinos
     output: web, pdf
     folderitems:
 
-      - title: Flujo de trabajo
-        url: /swbp_processmanagement_workflow.html
-        output: web, pdf
+    - title: Gestión del catálogo de Pueblos Mágicos
+      url: /plataforma_PM_management.html
+      output: web, pdf
 
-      - title: Procesos y grupos de proceso
-        url: /swbp_processmanagement_processes.html
-        output: web, pdf
-
-      - title: Modelado de procesos
-        url: /swbp_processmanagement_processmodeling.html
-        output: web, pdf
-
-      - title: Documentación de procesos de negocio
-        url: /swbp_processmanagement_docs.html
-        output: web, pdf
-
-      - title: Configuración de las herramientas de procesos
-        url: /swbp_processmanagement_tools.html
-        output: web, pdf
-
-      - title: Configuración de las propiedades de ejecución
-        url: /swbp_processmanagement_processconfig.html
-        output: web, pdf
-
-  - title: Operación de procesos de negocio
-    output: web, pdf
-    folderitems:
-
-      - title: Bandeja de tareas
-        url: /swbp_create_process_site.html
-        output: web, pdf
-
-      - title: Repositorio de documentos
-        url: /swbp_create_process_site.html
-        output: web, pdf
-
-      - title: Seguimiento a procesos
-        url: /swbp_create_process_site.html
-        output: web, pdf
-
-      - title: Generación de reportes
-        url: /swbp_create_process_site.html
-        output: web, pdf
-
-      - title: Herramientas de colaboración
-        url: /swbp_create_process_site.html
-        output: web, pdf
+    - title: Gestión de tableros de análisis
+      url: /plataforma_dashboard_management.html
+      output: web, pdf
 
   - title: Recursos adicionales
     output: web, pdf
     folderitems:
 
-      - title: Referencia rápida de la notación BPMN 2.0
-        url: /swbp_bpmn2_quickreference.html
-        output: web, pdf
-
       - title: Información para desarrolladores
-        url: /swbp_developers.html
+        url: /plataforma_developers.html
         output: web, pdf
